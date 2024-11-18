@@ -138,7 +138,7 @@ export default function BreathingExercise() {
           <DialogHeader>
             <DialogTitle>Congratulations!</DialogTitle>
             <DialogDescription>
-              You've completed your breathing exercise. Great job on taking a moment for your well-being!
+              You&apos;ve completed your breathing exercise. Great job on taking a moment for your well-being!
             </DialogDescription>
           </DialogHeader>
           <p>Remember, regular practice can lead to significant improvements in your overall health and stress management.</p>

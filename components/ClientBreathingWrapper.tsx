@@ -1,6 +1,6 @@
 'use client'
 
-import { Suspense, useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import BreathingExercise from './BreathingExercise'
 
 export default function ClientBreathingWrapper() {
