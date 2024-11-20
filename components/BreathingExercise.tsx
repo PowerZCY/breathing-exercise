@@ -187,7 +187,7 @@ export default function BreathingExercise() {
                 Great job!
               </h2>
               <p className="text-violet-600">
-                You've completed your breathing exercise
+                You&apos;ve completed your breathing exercise
               </p>
               <div className="text-sm text-violet-500 animate-pulse">
                 Take a moment to notice how you feel
