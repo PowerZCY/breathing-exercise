@@ -103,7 +103,7 @@ export default function BreathingExercise() {
           <Button 
             onClick={startExercise} 
             disabled={isExercising}
-            className="bg-violet-400 hover:bg-violet-500 text-white"
+            className="bg-[#C4B5FD] hover:bg-violet-400 text-white"
           >
             Start
           </Button>
@@ -162,7 +162,9 @@ export default function BreathingExercise() {
                 className="bg-violet-300 h-2.5 rounded-full transition-all duration-1000 ease-in-out" 
                 style={{ 
                   width: animationState 
-                    ? `${(currentBreath + 1) / parseInt(breathCount) * 100}%` 
+                    ? `${((currentBreath * (INHALE_DURATION + EXHALE_DURATION) + 
+                        (animationState === 'inhale' ? timer : INHALE_DURATION + timer)) / 
+                        (parseInt(breathCount) * (INHALE_DURATION + EXHALE_DURATION))) * 100}%` 
                     : '0%'
                 }}
               ></div>
@@ -180,7 +182,7 @@ export default function BreathingExercise() {
       
       {showCompletionDialog && (
         <div className="fixed inset-0 flex items-center justify-center z-50 animate-in fade-in duration-300">
-          <div className="bg-white/90 backdrop-blur-sm px-8 py-6 rounded-xl shadow-lg transform transition-all">
+          <div className="bg-white/90 backdrop-blur-sm px-4 sm:px-8 py-4 sm:py-6 rounded-xl shadow-lg transform transition-all mx-4">
             <div className="flex flex-col items-center text-center space-y-4">
               <div className="text-3xl">🎉</div>
               <h2 className="text-2xl font-bold text-violet-700">
