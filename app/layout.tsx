@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   title: 'Breathing Exercise',
   description: 'Practice guided belly breathing exercises for stress relief and better health',
   keywords: 'breathing exercise, meditation, stress relief, diaphragmatic breathing, belly breathing,mindfulness',
+  metadataBase: new URL('https://breathing-exercise.org'),
+  alternates: {
+    canonical: '/',
+  },
   icons: {
     icon: [
       {
