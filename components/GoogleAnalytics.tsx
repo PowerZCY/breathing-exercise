@@ -11,7 +11,7 @@ export default function GoogleAnalytics() {
   return (
     <>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-BVSH0NMBE4`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-P8NJ93W1K5`}
         strategy="afterInteractive"
       />
       <Script
@@ -23,7 +23,7 @@ export default function GoogleAnalytics() {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-BVSH0NMBE4', {
+          gtag('config', 'G-P8NJ93W1K5', {
             page_path: window.location.pathname,
             send_page_view: true
           });

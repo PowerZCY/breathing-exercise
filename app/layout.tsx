@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   title: 'Breathing Exercise',
   description: 'Practice guided belly breathing exercises for stress relief and better health',
   keywords: 'breathing exercise, meditation, stress relief, diaphragmatic breathing, belly breathing,mindfulness',
-  metadataBase: new URL('https://breathing-exercise.org'),
+  metadataBase: new URL('https://breathingexercise.net'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://breathingexercise.net/',
   },
   icons: {
     icon: [
@@ -27,8 +27,6 @@ export const metadata: Metadata = {
     type: 'website',
   },
 }
-
-// Trigger redeploy
 
 export default function RootLayout({
   children,
