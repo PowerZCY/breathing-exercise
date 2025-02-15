@@ -15,7 +15,7 @@ export default function BreathingInstructions() {
           <p className="mb-3">Modern life often leads to shallow, chest-based breathing patterns, which can contribute to 
           stress and anxiety.</p>
           
-          <p className="mb-3">By returning to natural belly breathing patterns, we can activate our body's relaxation response 
+          <p className="mb-3">By returning to natural belly breathing patterns, we can activate our body&apos;s relaxation response 
           and improve our overall well-being.</p>
           
           <p className="mb-3">Regular belly breathing practice can transform your daily life, helping you manage stress more 
