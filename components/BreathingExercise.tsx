@@ -81,7 +81,7 @@ export default function BreathingExercise() {
   return (
     <div className="bg-blue-50 flex flex-col items-center justify-center p-2 w-full">
       <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
-        <h1 className="text-2xl font-bold text-center mb-4">Breathing Exercise</h1>
+        <h1 className="text-2xl font-bold text-center mb-4">Belly Breathing Exercise</h1>
         <div className="mb-4">
           <p className="mb-2">Select the number of breaths:</p>
           <RadioGroup value={breathCount} onValueChange={setBreathCount} className="flex space-x-4">
