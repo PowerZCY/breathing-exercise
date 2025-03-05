@@ -2,6 +2,14 @@
     "home": {
         "goTop": "Retour en haut"
     },
+    "embed": {
+        "button": "Ajouter à votre site Web",
+        "title": "Intégrer l'exercice de respiration",
+        "copy": "Copier le code",
+        "copied": "Code copié dans le presse-papiers !",
+        "description": "Ajoutez cet exercice de respiration à votre site Web :",
+        "preview": "Aperçu en direct"
+    },
     "mainPanel": {
         "title": "Exercice de Respiration Ventrale",
         "subTitle": "Sélectionnez le nombre de respirations :",

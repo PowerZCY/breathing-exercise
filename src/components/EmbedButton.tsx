@@ -13,16 +13,14 @@ import { Button } from '@/components/ui/button'
 import {
     Dialog,
     DialogContent,
-    DialogHeader,
-    DialogTitle
+    DialogTitle,
+    DialogDescription  // 添加这个导入
 } from '@/components/ui/dialog'
 import { useToast } from '@/components/ui/use-toast'
 import { appConfig } from '@/lib/appConfig'
 import { Code2 } from 'lucide-react'
 import { useLocale, useTranslations } from 'next-intl'
 import { useState } from 'react'
-import { Metadata } from 'next'
-import { useRouter } from 'next/navigation'
 
 export default function EmbedButton() {
     const [open, setOpen] = useState(false)
@@ -30,10 +28,11 @@ export default function EmbedButton() {
     const { toast } = useToast()
     const locale = useLocale()
 
+    // 修改 iframe 的高度设置
     const embedCode = `
     <iframe 
         src="${appConfig.baseUrl}/${locale}?embed=true" 
-        style="width: 100%; height: 600px; border: none; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);"
+        style="width: 100%; height: 520px; border: none; overflow: hidden;"
         title="Breathing Exercise"
         loading="lazy">
     </iframe>`
@@ -50,53 +49,57 @@ export default function EmbedButton() {
         <>
             <Button
                 variant="ghost"
-                size="icon"
-                className="bg-purple-400 hover:bg-purple-500 text-white transform hover:scale-110 transition-all duration-300"
+                className="bg-purple-400/90 hover:bg-purple-500 text-white px-4 py-2 transform hover:scale-105 transition-all duration-300 shadow-sm flex items-center gap-2 text-sm"
                 onClick={() => setOpen(true)}
+                aria-label={t('button')}
             >
-                <Code2 className="h-5 w-5" />
+                <Code2 className="h-4 w-4" />
+                <span>{t('button')}</span>
             </Button>
 
             <Dialog open={open} onOpenChange={setOpen}>
-                <DialogContent className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-md max-w-2xl">
-                    <DialogHeader className="space-y-3">
-                        <div className="flex items-center justify-between">
-                            <DialogTitle className="text-xl font-semibold">
-                                {t('title')}
-                            </DialogTitle>
+                <DialogContent className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-md max-w-6xl">
+                    <div className="grid grid-cols-2 gap-6">
+                        {/* 左侧区域：标题和代码 */}
+                        <div className="space-y-6">
+                            <div className="space-y-2">
+                                <DialogTitle className="text-xl font-semibold">
+                                    {t('title')}
+                                </DialogTitle>
+                                <DialogDescription className="text-sm text-gray-600 dark:text-gray-300">
+                                    {t('description')}
+                                </DialogDescription>
+                            </div>
+
+                            <div className="relative">
+                                <pre className="bg-purple-50/80 dark:bg-purple-900/20 p-4 rounded-lg font-mono text-sm whitespace-pre-wrap break-words border border-purple-100">
+                                    {embedCode}
+                                </pre>
+                                <Button
+                                    className="absolute top-3 right-3 bg-purple-400 hover:bg-purple-500 transition-all duration-300 opacity-90 hover:opacity-100"
+                                    size="sm"
+                                    onClick={handleCopy}
+                                >
+                                    {t('copy')}
+                                </Button>
+                            </div>
                         </div>
-                        <p className="text-sm text-gray-600 dark:text-gray-300">
-                            {t('description')}
-                        </p>
-                    </DialogHeader>
 
-                    <div className="relative mt-4 group">
-                        <div className="relative">
-                            <pre className="bg-gray-100 dark:bg-gray-900 p-6 rounded-lg font-mono text-sm overflow-x-auto whitespace-pre-wrap break-all">
-                                {embedCode}
-                            </pre>
-
-                            <Button
-                                className="absolute top-3 right-3 bg-purple-400 hover:bg-purple-500 transition-all duration-300 opacity-90 hover:opacity-100"
-                                size="sm"
-                                onClick={handleCopy}
-                            >
-                                {t('copy')}
-                            </Button>
-                        </div>
-
-                        <div className="mt-6 p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
-                            <h3 className="text-sm font-medium mb-2">{t('preview')}</h3>
-                            <div className="w-full h-[300px] bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
-                                <iframe
-                                    src={`${appConfig.baseUrl}/${locale}?embed=true`}
-                                    style={{
-                                        width: '100%',
-                                        height: '100%',
-                                        border: 'none',
-                                    }}
-                                    title="Breathing Exercise Preview"
-                                />
+                        {/* 右侧区域：预览 */}
+                        <div>
+                            <div className="mt-6 p-4 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
+                                <h3 className="text-sm font-medium mb-2">{t('preview')}</h3>
+                                <div className="w-full h-[570px] overflow-hidden">
+                                    <iframe
+                                        src={`${appConfig.baseUrl}/${locale}?embed=true`}
+                                        style={{
+                                            width: '100%',
+                                            height: '100%',
+                                            border: 'none',
+                                        }}
+                                        title="Breathing Exercise Preview"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>

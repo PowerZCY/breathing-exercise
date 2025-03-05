@@ -2,6 +2,14 @@
   "home": {
     "goTop": "Nach oben"
   },
+  "embed": {
+    "button": "Zu Ihrer Website hinzufügen",
+    "title": "Atemübung einbetten",
+    "copy": "Code kopieren",
+    "copied": "Code in die Zwischenablage kopiert!",
+    "description": "Fügen Sie diese Atemübung zu Ihrer Website hinzu:",
+    "preview": "Live-Vorschau"
+  },
   "mainPanel": {
     "title": "Bauchatmungsübung",
     "subTitle": "Wählen Sie die Anzahl der Atemzüge:",

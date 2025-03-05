@@ -2,6 +2,14 @@
   "home": {
     "goTop": "Yukarı git"
   },
+  "embed": {
+    "button": "Web sitenize ekleyin",
+    "title": "Nefes egzersizini göm",
+    "copy": "Kodu kopyala",
+    "copied": "Kod panoya kopyalandı!",
+    "description": "Bu nefes egzersizini web sitenize ekleyin:",
+    "preview": "Canlı Önizleme"
+  },
   "mainPanel": {
     "title": "Karın Solunumu Egzersizi",
     "subTitle": "Nefes sayısını seçin:",

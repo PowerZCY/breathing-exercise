@@ -1,0 +1,70 @@
+开始检查翻译...
+找到 24 个文件需要扫描
+在文件 src/components/GoTopButton.tsx 中找到以下信息:
+  命名空间变量映射:
+    - t => home
+  翻译键:
+    - home.goTop
+在文件 src/components/EmbedButton.tsx 中找到以下信息:
+  命名空间变量映射:
+    - t => embed
+  翻译键:
+    - embed.copied
+    - embed.button
+    - embed.button
+    - embed.title
+    - embed.description
+    - embed.copy
+    - embed.preview
+在文件 src/components/BreathingInstructions.tsx 中找到以下信息:
+  命名空间变量映射:
+    - t => instructions
+  翻译键:
+    - instructions.title
+    - instructions.benefits.title
+    - instructions.practice.title
+    - instructions.daily.title
+    - instructions.tips.title
+在文件 src/components/BreathingExercise.tsx 中找到以下信息:
+  命名空间变量映射:
+    - t => mainPanel
+  翻译键:
+    - mainPanel.title
+    - mainPanel.subTitle
+    - mainPanel.unit
+    - mainPanel.unit
+    - mainPanel.unit
+    - mainPanel.startButton
+    - mainPanel.resetButton
+    - mainPanel.inhale
+    - mainPanel.exhale
+    - mainPanel.progress
+    - mainPanel.unit
+    - mainPanel.helpMsg
+    - mainPanel.completedTitle
+    - mainPanel.completedMsg
+    - mainPanel.completedX
+
+检查翻译文件中的键...
+
+=== 翻译检查报告 ===
+
+✅ en 翻译文件中包含所有使用的键
+✅ zh 翻译文件中包含所有使用的键
+✅ ja 翻译文件中包含所有使用的键
+✅ ko 翻译文件中包含所有使用的键
+✅ fr 翻译文件中包含所有使用的键
+✅ de 翻译文件中包含所有使用的键
+✅ es 翻译文件中包含所有使用的键
+✅ it 翻译文件中包含所有使用的键
+✅ pt 翻译文件中包含所有使用的键
+✅ ru 翻译文件中包含所有使用的键
+✅ ar 翻译文件中包含所有使用的键
+✅ hi 翻译文件中包含所有使用的键
+✅ tr 翻译文件中包含所有使用的键
+✅ pl 翻译文件中包含所有使用的键
+✅ uk 翻译文件中包含所有使用的键
+
+=== 报告结束 ===
+
+检查完成，日志已保存到 /Users/funeye/IdeaProjects/breathing-exercise/scripts/check.log

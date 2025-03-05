@@ -2,6 +2,14 @@
   "home": {
     "goTop": "Ir arriba"
   },
+  "embed": {
+    "button": "Agregar a tu sitio web",
+    "title": "Incorporar ejercicio de respiración",
+    "copy": "Copiar código",
+    "copied": "¡Código copiado al portapapeles!",
+    "description": "Agrega este ejercicio de respiración a tu sitio web:",
+    "preview": "Vista previa en vivo"
+  },
   "mainPanel": {
     "title": "Ejercicio de Respiración Abdominal",
     "subTitle": "Seleccione el número de respiraciones:",

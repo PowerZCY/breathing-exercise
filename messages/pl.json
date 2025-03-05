@@ -2,6 +2,14 @@
   "home": {
     "goTop": "Do góry"
   },
+  "embed": {
+    "button": "Dodaj do swojej strony",
+    "title": "Osadź ćwiczenie oddechowe",
+    "copy": "Skopiuj kod",
+    "copied": "Kod skopiowany do schowka!",
+    "description": "Dodaj to ćwiczenie oddechowe do swojej strony:",
+    "preview": "Podgląd na żywo"
+  },
   "mainPanel": {
     "title": "Ćwiczenie Oddychania Brzusznego",
     "subTitle": "Wybierz liczbę oddechów:",

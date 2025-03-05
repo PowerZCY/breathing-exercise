@@ -81,8 +81,8 @@ export default function BreathingExercise() {
 
   const t = useTranslations('mainPanel');
   return (
-    <div className="bg-blue-50 flex flex-col items-center justify-center p-2 w-full">
-      <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
+    <div className="flex flex-col items-center justify-center w-full">
+      <div className="w-full max-w-md bg-white rounded-xl shadow-md p-6">
         <h1 className="text-2xl font-bold text-center mb-4">{t('title')}</h1>
         <div className="mb-4">
           <p className="mb-2">{t('subTitle')}</p>
