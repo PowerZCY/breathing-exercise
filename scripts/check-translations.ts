@@ -5,36 +5,6 @@ import * as path from 'path'
 import * as glob from 'glob'
 import { appConfig } from '../src/lib/appConfig' // 引入配置
 
-// 1.安装所需的依赖
-// pnpm add -D ts-node glob @types/glob typescript
-// 2.创建tsconfig.node.json文件
-
-// {
-//   "compilerOptions": {
-//     "composite": true,
-//     "skipLibCheck": true,
-//     "module": "CommonJS",
-//     "moduleResolution": "node",
-//     "allowSyntheticDefaultImports": true,
-//     "strict": true,
-//     "target": "ES2020",
-//     "lib": ["ES2020"],
-//     "esModuleInterop": true
-//   },
-//   "include": ["scripts/**/*"]
-// }
-
-// 3.创建appConfig.ts文件, 定义项目支持的语言列表
-// 4.创建国际化翻译目录messages, 每种语言.json文件
-
-// 5. 在package.json中添加脚本
-// "scripts": {
-//   "check-translations": "ts-node scripts/check-translations.ts"
-// }
-// 6. 运行脚本
-// pnpm check-translations
-
-
 // 定义类型
 interface TranslationInfo {
   namespaces: Map<string, string> // 变量名 -> 命名空间
@@ -113,11 +83,11 @@ function extractTranslationsInfo(content: string, filePath: string): Translation
     namespaces: new Map<string, string>(),
     keys: []
   }
-  
+
   // 匹配 getTranslations({ locale, namespace: 'namespace' }) 或 getTranslations('namespace')
   const getTranslationsPattern = /getTranslations\(\s*(?:{[^}]*namespace:\s*['"]([^'"]+)['"][^}]*}|['"]([^'"]+)['"])\s*\)/g
   let match: RegExpExecArray | null
-  
+
   while ((match = getTranslationsPattern.exec(content)) !== null) {
     const namespace = match[1] || match[2]
     if (namespace) {
@@ -129,7 +99,7 @@ function extractTranslationsInfo(content: string, filePath: string): Translation
       }
     }
   }
-  
+
   // 匹配 useTranslations('namespace')
   const useTranslationsPattern = /useTranslations\(\s*['"]([^'"]+)['"]\s*\)/g
   while ((match = useTranslationsPattern.exec(content)) !== null) {
@@ -141,16 +111,16 @@ function extractTranslationsInfo(content: string, filePath: string): Translation
       result.namespaces.set(constMatch[1], namespace)
     }
   }
-  
+
   // 匹配 t('key') 或 t("key")，并检查 t 是否与已知命名空间关联
   const tPattern = /(\w+)\(\s*['"]([^'"]+)['"]\s*\)/g
   while ((match = tPattern.exec(content)) !== null) {
     const funcName = match[1]
     const key = match[2]
-    
+
     // 过滤掉明显不是翻译函数的调用
     if (key.includes('/') || key === '') continue
-    
+
     // 如果函数名与已知命名空间变量关联
     if (result.namespaces.has(funcName)) {
       const namespace = result.namespaces.get(funcName)
@@ -160,7 +130,7 @@ function extractTranslationsInfo(content: string, filePath: string): Translation
       }
     }
   }
-  
+
   // 匹配 <FormattedMessage id="key" />
   const formattedMessagePattern = /<FormattedMessage[^>]*id=['"]([^'"]+)['"]/g
   while ((match = formattedMessagePattern.exec(content)) !== null) {
@@ -181,14 +151,14 @@ function extractTranslationsInfo(content: string, filePath: string): Translation
       }
     }
   }
-  
+
   return result
 }
 
 // 主函数
 async function checkTranslations(): Promise<number> {
   log('开始检查翻译...')
-  
+
   // 获取所有 TSX/TS 文件
   const files: string[] = glob.sync('src/**/*.{tsx,ts,jsx,js}', {
     ignore: ['src/**/*.d.ts', 'src/**/*.test.ts', 'src/**/*.test.tsx', 'node_modules/**']
@@ -201,17 +171,17 @@ async function checkTranslations(): Promise<number> {
     try {
       const content = fs.readFileSync(file, 'utf8')
       const { namespaces, keys } = extractTranslationsInfo(content, file)
-      
+
       if (keys.length > 0 || namespaces.size > 0) {
         log(`在文件 ${file} 中找到以下信息:`)
-        
+
         if (namespaces.size > 0) {
           log(`  命名空间变量映射:`)
           namespaces.forEach((namespace, varName) => {
             log(`    - ${varName} => ${namespace}`)
           })
         }
-        
+
         if (keys.length > 0) {
           log(`  翻译键:`)
           keys.forEach(key => {
@@ -230,7 +200,7 @@ async function checkTranslations(): Promise<number> {
   }
 
   log('\n检查翻译文件中的键...')
-  
+
   // 检查结果
   const report: TranslationReport = {
     missingInEn: [],
@@ -287,7 +257,7 @@ async function checkTranslations(): Promise<number> {
   // 在所有操作完成后，一次性写入日志文件
   const logFilePath = path.join(process.cwd(), 'scripts', 'check.log')
   fs.writeFileSync(logFilePath, logMessages.join('\n'), 'utf8')
-  
+
   log(`检查完成，日志已保存到 ${logFilePath}`)
 
   // 如果有任何问题，返回非零状态码
@@ -300,7 +270,7 @@ checkTranslations().then(exitCode => {
   const logFilePath = path.join(process.cwd(), 'scripts', 'check.log')
   fs.writeFileSync(logFilePath, logMessages.join('\n'), 'utf8')
   console.log(`日志已保存到 ${logFilePath}`)
-  
+
   process.exit(exitCode)
 }).catch(error => {
   console.error('检查翻译时发生错误:', error)
