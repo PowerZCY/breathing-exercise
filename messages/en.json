@@ -1,4 +1,7 @@
 {
+  "home": {
+    "goTop": "Go Top"
+  },
   "mainPanel": {
     "title": "Belly Breathing Exercise",
     "subTitle": "Select the number of breaths:",

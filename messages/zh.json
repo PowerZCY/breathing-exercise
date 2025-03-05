@@ -1,4 +1,7 @@
 {
+    "home": {
+        "goTop": "回到顶部"
+    },
     "mainPanel": {
         "title": "腹式呼吸练习",
         "subTitle": "选择练习次数:",

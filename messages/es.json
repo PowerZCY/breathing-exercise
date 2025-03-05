@@ -1,0 +1,77 @@
+{
+  "home": {
+    "goTop": "Ir arriba"
+  },
+  "mainPanel": {
+    "title": "Ejercicio de Respiración Abdominal",
+    "subTitle": "Seleccione el número de respiraciones:",
+    "unit": "respiraciones",
+    "startButton": "Comenzar",
+    "resetButton": "Reiniciar",
+    "inhale": "Inhale, expanda su abdomen",
+    "exhale": "Exhale, contraiga su abdomen",
+    "progress": "Progreso",
+    "helpMsg": "Presione Comenzar para iniciar",
+    "completedTitle": "¡Buen trabajo!",
+    "completedMsg": "Ha completado su ejercicio de respiración",
+    "completedX": "Tómese un momento para notar cómo se siente"
+  },
+  "instructions": {
+    "title": "¿Por qué practicar la respiración abdominal?",
+    "intro": {
+      "text1": "La respiración abdominal, también conocida como respiración diafragmática, es una técnica fundamental pero poderosa que se ha practicado durante miles de años en diversas culturas.",
+      "text2": "Esta antigua práctica de la respiración abdominal ha ganado un respaldo científico significativo en los últimos años, ya que los investigadores continúan descubriendo sus profundos efectos en la salud física y mental.",
+      "text3": "Cuando practicas la respiración abdominal, activas el diafragma, un músculo en forma de cúpula en la base de tus pulmones, que está naturalmente diseñado para manejar la mayor parte de tu trabajo respiratorio.",
+      "text4": "La vida moderna a menudo conduce a patrones de respiración superficiales basados en el pecho, lo que puede contribuir al estrés y la ansiedad.",
+      "text5": "Al volver a los patrones naturales de respiración abdominal, podemos activar la respuesta de relajación del cuerpo y mejorar nuestro bienestar general.",
+      "text6": "La práctica regular de la respiración abdominal puede transformar tu vida diaria, ayudándote a manejar el estrés de manera más efectiva y a mantener una mejor salud."
+    },
+    "benefits": {
+      "title": "Beneficios clave de la respiración abdominal:",
+      "list": [
+        "Reduce el estrés y la ansiedad al activar el sistema nervioso parasimpático",
+        "Disminuye la frecuencia cardíaca y la presión arterial, promoviendo la salud cardiovascular",
+        "Mejora la estabilidad de los músculos centrales y la postura",
+        "Aumenta el suministro de oxígeno a los órganos y tejidos vitales",
+        "Mejora la calidad del sueño y reduce los síntomas de insomnio",
+        "Aumenta la concentración y la claridad mental",
+        "Fortalece el sistema inmunológico a través de la reducción del estrés",
+        "Ayuda en la digestión y el metabolismo",
+        "Reduce la tensión muscular y el estrés físico",
+        "Ayuda a manejar condiciones de dolor crónico"
+      ]
+    },
+    "practice": {
+      "title": "Cómo practicar la respiración abdominal:",
+      "steps": [
+        "Encuentra una posición cómoda, ya sea sentado con la columna recta o acostado sobre una superficie plana. Si estás sentado, mantén los hombros relajados y la cabeza alineada con la columna.",
+        "Coloca una mano en tu pecho y la otra en tu abdomen, justo debajo de la caja torácica. Esta colocación de las manos te ayuda a ser consciente de tu patrón de respiración.",
+        "Comienza tu práctica de respiración abdominal inhalando lentamente por la nariz, permitiendo que tu abdomen se expanda como un globo. La mano en tu abdomen debería elevarse, mientras que la mano en tu pecho debería permanecer relativamente quieta.",
+        "Exhala lentamente por los labios fruncidos, sintiendo cómo tu abdomen desciende. Imagina liberar toda la tensión con cada exhalación. La mano en tu abdomen debería volver a su posición inicial.",
+        "Mantén un ritmo constante con tu respiración abdominal. Apunta a una inhalación de 4 segundos y una exhalación de 8 segundos para comenzar.",
+        "Enfoca tu atención en la sensación de subida y bajada en tu abdomen, dejando ir cualquier pensamiento distractor."
+      ]
+    },
+    "daily": {
+      "title": "Estableciendo una práctica diaria de respiración abdominal:",
+      "daily1": "Para principiantes, comienza con 5-10 minutos de respiración abdominal, 3-4 veces al día. Elige momentos específicos, como al despertar, antes de las comidas o antes de dormir, para establecer una rutina de práctica consistente. A medida que te sientas más cómodo con la técnica, aumenta gradualmente la duración de tus sesiones de respiración abdominal.",
+      "daily2": "Los practicantes avanzados pueden incorporar la respiración abdominal en diversas actividades, como caminar, hacer ejercicio o durante situaciones estresantes. La versatilidad de la respiración abdominal la convierte en una herramienta invaluable para la gestión diaria del estrés y el mantenimiento de la salud general."
+    },
+    "tips": {
+      "title": "Consejos importantes para una respiración abdominal efectiva:",
+      "list": [
+        "Practica inicialmente en un entorno tranquilo",
+        "Usa ropa cómoda y holgada",
+        "Mantén una postura correcta durante la práctica",
+        "Sé constante en tu práctica diaria",
+        "Escucha a tu cuerpo y ajusta el ritmo según sea necesario"
+      ]
+    },
+    "conclusion": {
+      "conclusion1": "Si experimentas mareos o vértigo durante la respiración abdominal, vuelve a tu patrón de respiración normal y vuelve gradualmente a la práctica. Recuerda que la respiración abdominal debe sentirse natural y cómoda.",
+      "conclusion2": "La práctica regular de la respiración abdominal puede traer beneficios transformadores a largo plazo, incluyendo una mejor regulación emocional, mayor resiliencia al estrés y mejor salud general.",
+      "conclusion3": "Esta técnica de respiración simple pero poderosa es accesible para todos y se puede practicar en cualquier lugar, lo que la convierte en una herramienta esencial para la vida moderna.",
+      "conclusion4": "Ya sea que estés lidiando con el estrés, la ansiedad o simplemente quieras mejorar tu bienestar, incorporar la respiración abdominal en tu rutina diaria puede ayudarte a lograr un mejor equilibrio y mayor vitalidad."
+    }
+  }
+}

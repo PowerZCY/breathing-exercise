@@ -1,8 +1,10 @@
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import GoTopButton from '@/components/GoTopButton'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -45,7 +47,13 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages} locale={locale}>
-          {children}
+          <div className="relative min-h-screen">
+            <div className="absolute top-4 right-4 z-50">
+              <LanguageSwitcher />
+            </div>
+            {children}
+          </div>
+          <GoTopButton />
           <GoogleAnalytics />
         </NextIntlClientProvider>
       </body>

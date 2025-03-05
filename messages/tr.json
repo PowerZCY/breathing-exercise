@@ -1,0 +1,77 @@
+{
+  "home": {
+    "goTop": "Yukarı git"
+  },
+  "mainPanel": {
+    "title": "Karın Solunumu Egzersizi",
+    "subTitle": "Nefes sayısını seçin:",
+    "unit": "nefes",
+    "startButton": "Başlat",
+    "resetButton": "Sıfırla",
+    "inhale": "Nefes alın, karnınızı genişletin",
+    "exhale": "Nefes verin, karnınızı daraltın",
+    "progress": "İlerleme",
+    "helpMsg": "Başlamak için Başlat'a basın",
+    "completedTitle": "Harika iş!",
+    "completedMsg": "Solunum egzersizinizi tamamladınız",
+    "completedX": "Nasıl hissettiğinizi fark etmek için bir an ayırın"
+  },
+  "instructions": {
+    "title": "Neden karın solunumu yapmalısınız?",
+    "intro": {
+      "text1": "Karın solunumu, diyafram solunumu olarak da bilinir, binlerce yıldır çeşitli kültürlerde uygulanan temel ama güçlü bir tekniktir.",
+      "text2": "Bu eski karın solunumu uygulaması, son yıllarda önemli bilimsel destek kazanmıştır, çünkü araştırmacılar fiziksel ve zihinsel sağlık üzerindeki derin etkilerini keşfetmeye devam etmektedir.",
+      "text3": "Karın solunumu yaptığınızda, akciğerlerinizin tabanında bulunan kubbe şeklindeki bir kas olan diyaframı harekete geçirirsiniz, bu kas doğal olarak solunum işinizin çoğunu yapmak üzere tasarlanmıştır.",
+      "text4": "Modern yaşam genellikle göğüs tabanlı yüzeysel solunum kalıplarına yol açar, bu da stres ve kaygıya katkıda bulunabilir.",
+      "text5": "Doğal karın solunumu kalıplarına geri dönerek, vücudun gevşeme tepkisini harekete geçirebilir ve genel refahımızı artırabiliriz.",
+      "text6": "Düzenli karın solunumu uygulaması, günlük yaşamınızı değiştirebilir, stresi daha etkili bir şekilde yönetmenize ve daha iyi bir sağlık sürdürmenize yardımcı olabilir."
+    },
+    "benefits": {
+      "title": "Karın solunumunun başlıca faydaları:",
+      "list": [
+        "Parasempatik sinir sistemini harekete geçirerek stresi ve kaygıyı azaltır",
+        "Kalp atış hızını ve kan basıncını düşürerek kardiyovasküler sağlığı destekler",
+        "Çekirdek kasların stabilitesini ve duruşunu iyileştirir",
+        "Hayati organlara ve dokulara oksijen tedarikini artırır",
+        "Uyku kalitesini artırır ve uykusuzluk belirtilerini azaltır",
+        "Konsantrasyonu ve zihinsel netliği artırır",
+        "Stresin azaltılması yoluyla bağışıklık sistemini güçlendirir",
+        "Sindirim ve metabolizmaya yardımcı olur",
+        "Kas gerginliğini ve fiziksel stresi azaltır",
+        "Kronik ağrı durumlarını yönetmeye yardımcı olur"
+      ]
+    },
+    "practice": {
+      "title": "Karın solunumu nasıl yapılır:",
+      "steps": [
+        "Düz bir yüzeyde oturarak veya uzanarak rahat bir pozisyon bulun. Oturuyorsanız, omuzlarınızı gevşetin ve başınızı omurganızla hizalayın.",
+        "Bir elinizi göğsünüze, diğerini karnınıza, kaburgaların hemen altına yerleştirin. Bu el pozisyonu, solunum kalıbınızın farkında olmanıza yardımcı olur.",
+        "Burnunuzdan yavaşça nefes alarak karın solunumu uygulamanıza başlayın, karnınızın bir balon gibi genişlemesine izin verin. Karnınızdaki el yükselmelidir, göğsünüzdeki el ise nispeten sabit kalmalıdır.",
+        "Dudaklarınızı büzerek yavaşça nefes verin, karnınızın aşağı indiğini hissedin. Her nefes verişte tüm gerginliği serbest bıraktığınızı hayal edin. Karnınızdaki el başlangıç pozisyonuna dönmelidir.",
+        "Karın solunumunuzla sabit bir ritim koruyun. Başlangıçta 4 saniye nefes almayı ve 8 saniye nefes vermeyi hedefleyin.",
+        "Karnınızdaki yükselme ve alçalma hissine odaklanın, dikkat dağıtıcı düşünceleri bırakın."
+      ]
+    },
+    "daily": {
+      "title": "Günlük karın solunumu pratiği oluşturma:",
+      "daily1": "Yeni başlayanlar için, günde 3-4 kez, 5-10 dakika karın solunumu ile başlayın. Uyanır uyanmaz, yemeklerden önce veya yatmadan önce gibi belirli zamanlar seçin, böylece düzenli bir uygulama rutini oluşturabilirsiniz. Teknikle daha rahat hale geldikçe, karın solunumu seanslarınızın süresini kademeli olarak artırın.",
+      "daily2": "İleri düzey uygulayıcılar, yürüyüş, egzersiz veya stresli durumlar gibi çeşitli etkinliklere karın solunumunu entegre edebilirler. Karın solunumunun çok yönlülüğü, günlük stres yönetimi ve genel sağlığın korunması için paha biçilmez bir araçtır."
+    },
+    "tips": {
+      "title": "Etkili karın solunumu için önemli ipuçları:",
+      "list": [
+        "Başlangıçta sessiz bir ortamda pratik yapın",
+        "Rahat ve bol giysiler giyin",
+        "Pratik sırasında doğru duruşu koruyun",
+        "Günlük pratiğinizde tutarlı olun",
+        "Vücudunuzu dinleyin ve gerektiğinde hızı ayarlayın"
+      ]
+    },
+    "conclusion": {
+      "conclusion1": "Karın solunumu sırasında baş dönmesi veya sersemlik hissederseniz, normal solunum kalıbınıza geri dönün ve yavaşça pratiğe geri dönün. Karın solunumu doğal ve rahat hissettirmelidir.",
+      "conclusion2": "Düzenli karın solunumu pratiği, duygusal düzenlemenin iyileştirilmesi, strese karşı artan direnç ve genel sağlığın iyileştirilmesi gibi uzun vadeli dönüşümsel faydalar sağlayabilir.",
+      "conclusion3": "Bu basit ama güçlü solunum tekniği herkes için erişilebilir ve her yerde uygulanabilir, bu da onu modern yaşam için vazgeçilmez bir araç haline getirir.",
+      "conclusion4": "Stres, kaygı ile başa çıkıyor veya sadece refahınızı artırmak istiyorsanız, günlük rutininize karın solunumunu dahil etmek, daha iyi bir denge ve daha fazla canlılık elde etmenize yardımcı olabilir."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "home": {
+    "goTop": "Torna su"
+  },
+  "mainPanel": {
+    "title": "Esercizio di Respirazione Addominale",
+    "subTitle": "Seleziona il numero di respiri:",
+    "unit": "respiri",
+    "startButton": "Inizia",
+    "resetButton": "Reimposta",
+    "inhale": "Inspira, espandi il tuo addome",
+    "exhale": "Espira, contrai il tuo addome",
+    "progress": "Progresso",
+    "helpMsg": "Premi Inizia per cominciare",
+    "completedTitle": "Ottimo lavoro!",
+    "completedMsg": "Hai completato il tuo esercizio di respirazione",
+    "completedX": "Prenditi un momento per notare come ti senti"
+  },
+  "instructions": {
+    "title": "Perché praticare la respirazione addominale?",
+    "intro": {
+      "text1": "La respirazione addominale, conosciuta anche come respirazione diaframmatica, è una tecnica fondamentale ma potente praticata da migliaia di anni in diverse culture.",
+      "text2": "Questa antica pratica della respirazione addominale ha ottenuto un significativo supporto scientifico negli ultimi anni, poiché i ricercatori continuano a scoprire i suoi profondi effetti sulla salute fisica e mentale.",
+      "text3": "Quando pratichi la respirazione addominale, attivi il diaframma, un muscolo a forma di cupola alla base dei tuoi polmoni, che è naturalmente progettato per gestire la maggior parte del tuo lavoro respiratorio.",
+      "text4": "La vita moderna spesso porta a schemi di respirazione superficiali basati sul torace, che possono contribuire allo stress e all'ansia.",
+      "text5": "Ritornando a schemi naturali di respirazione addominale, possiamo attivare la risposta di rilassamento del corpo e migliorare il nostro benessere generale.",
+      "text6": "La pratica regolare della respirazione addominale può trasformare la tua vita quotidiana, aiutandoti a gestire lo stress in modo più efficace e a mantenere una salute migliore."
+    },
+    "benefits": {
+      "title": "Principali benefici della respirazione addominale:",
+      "list": [
+        "Riduce lo stress e l'ansia attivando il sistema nervoso parasimpatico",
+        "Abbassa la frequenza cardiaca e la pressione sanguigna, promuovendo la salute cardiovascolare",
+        "Migliora la stabilità dei muscoli centrali e la postura",
+        "Aumenta l'apporto di ossigeno agli organi e ai tessuti vitali",
+        "Migliora la qualità del sonno e riduce i sintomi dell'insonnia",
+        "Aumenta la concentrazione e la chiarezza mentale",
+        "Rafforza il sistema immunitario attraverso la riduzione dello stress",
+        "Aiuta nella digestione e nel metabolismo",
+        "Riduce la tensione muscolare e lo stress fisico",
+        "Aiuta a gestire le condizioni di dolore cronico"
+      ]
+    },
+    "practice": {
+      "title": "Come praticare la respirazione addominale:",
+      "steps": [
+        "Trova una posizione comoda, seduto con la colonna vertebrale dritta o sdraiato su una superficie piana. Se sei seduto, mantieni le spalle rilassate e la testa allineata con la colonna vertebrale.",
+        "Posiziona una mano sul petto e l'altra sull'addome, appena sotto la gabbia toracica. Questa posizione delle mani ti aiuta a essere consapevole del tuo schema respiratorio.",
+        "Inizia la tua pratica di respirazione addominale inspirando lentamente attraverso il naso, permettendo al tuo addome di espandersi come un pallone. La mano sull'addome dovrebbe sollevarsi, mentre la mano sul petto dovrebbe rimanere relativamente ferma.",
+        "Espira lentamente attraverso le labbra socchiuse, sentendo il tuo addome scendere. Immagina di rilasciare tutta la tensione con ogni espirazione. La mano sull'addome dovrebbe tornare alla posizione iniziale.",
+        "Mantieni un ritmo costante con la tua respirazione addominale. Inizia con un'inspirazione di 4 secondi e un'espirazione di 8 secondi.",
+        "Concentra la tua attenzione sulla sensazione di salita e discesa nell'addome, lasciando andare qualsiasi pensiero distraente."
+      ]
+    },
+    "daily": {
+      "title": "Stabilire una pratica quotidiana di respirazione addominale:",
+      "daily1": "Per i principianti, inizia con 5-10 minuti di respirazione addominale, 3-4 volte al giorno. Scegli momenti specifici, come al risveglio, prima dei pasti o prima di dormire, per stabilire una routine di pratica coerente. Man mano che ti senti più a tuo agio con la tecnica, aumenta gradualmente la durata delle tue sessioni di respirazione addominale.",
+      "daily2": "I praticanti avanzati possono incorporare la respirazione addominale in varie attività, come camminare, fare esercizio o durante situazioni stressanti. La versatilità della respirazione addominale la rende uno strumento inestimabile per la gestione quotidiana dello stress e il mantenimento della salute generale."
+    },
+    "tips": {
+      "title": "Consigli importanti per una respirazione addominale efficace:",
+      "list": [
+        "Pratica inizialmente in un ambiente tranquillo",
+        "Indossa abiti comodi e larghi",
+        "Mantieni una postura corretta durante la pratica",
+        "Sii costante nella tua pratica quotidiana",
+        "Ascolta il tuo corpo e regola il ritmo secondo necessità"
+      ]
+    },
+    "conclusion": {
+      "conclusion1": "Se provi vertigini o capogiri durante la respirazione addominale, torna al tuo schema respiratorio normale e riprendi gradualmente la pratica. Ricorda che la respirazione addominale dovrebbe sembrare naturale e confortevole.",
+      "conclusion2": "La pratica regolare della respirazione addominale può portare benefici trasformativi a lungo termine, inclusa una migliore regolazione emotiva, maggiore resilienza allo stress e migliore salute generale.",
+      "conclusion3": "Questa tecnica di respirazione semplice ma potente è accessibile a tutti e può essere praticata ovunque, rendendola uno strumento essenziale per la vita moderna.",
+      "conclusion4": "Che tu stia affrontando lo stress, l'ansia o semplicemente desideri migliorare il tuo benessere, incorporare la respirazione addominale nella tua routine quotidiana può aiutarti a raggiungere un migliore equilibrio e maggiore vitalità."
+    }
+  }
+}

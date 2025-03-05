@@ -24,7 +24,8 @@ const intlMiddleware = createMiddleware({
 
   // Used when no locale matches
   defaultLocale: appConfig.i18n.defaultLocale,
-  localePrefix: "always"  // 改为 always，确保始终使用语言前缀
+  localePrefix: "always", // 改为 always，确保始终使用语言前缀
+  localeDetection: false  // 添加此配置以禁用自动语言检测
 });
 
 export function middleware(request: NextRequest) {

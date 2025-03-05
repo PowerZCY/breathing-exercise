@@ -1,0 +1,77 @@
+{
+  "home": {
+    "goTop": "Nach oben"
+  },
+  "mainPanel": {
+    "title": "Bauchatmungsübung",
+    "subTitle": "Wählen Sie die Anzahl der Atemzüge:",
+    "unit": "Atemzüge",
+    "startButton": "Starten",
+    "resetButton": "Zurücksetzen",
+    "inhale": "Einatmen, Bauch ausdehnen",
+    "exhale": "Ausatmen, Bauch zusammenziehen",
+    "progress": "Fortschritt",
+    "helpMsg": "Drücken Sie Starten, um zu beginnen",
+    "completedTitle": "Gut gemacht!",
+    "completedMsg": "Sie haben Ihre Atemübung abgeschlossen",
+    "completedX": "Nehmen Sie sich einen Moment Zeit, um zu spüren, wie Sie sich fühlen"
+  },
+  "instructions": {
+    "title": "Warum Bauchatmung üben?",
+    "intro": {
+      "text1": "Die Bauchatmung, auch bekannt als Zwerchfellatmung, ist eine grundlegende, aber kraftvolle Technik, die seit Tausenden von Jahren in verschiedenen Kulturen praktiziert wird.",
+      "text2": "Diese alte Praxis der Bauchatmung hat in den letzten Jahren erhebliche wissenschaftliche Unterstützung erhalten, da Forscher weiterhin ihre tiefgreifenden Auswirkungen auf die körperliche und geistige Gesundheit entdecken.",
+      "text3": "Wenn Sie Bauchatmung praktizieren, aktivieren Sie das Zwerchfell - einen kuppelförmigen Muskel an der Basis Ihrer Lunge -, der von Natur aus den größten Teil Ihrer Atmungsarbeit übernimmt.",
+      "text4": "Das moderne Leben führt oft zu flachen, brustbasierten Atemmustern, die zu Stress und Angst beitragen können.",
+      "text5": "Indem wir zu natürlichen Bauchatmungsmustern zurückkehren, können wir die Entspannungsreaktion des Körpers aktivieren und unser allgemeines Wohlbefinden verbessern.",
+      "text6": "Regelmäßige Praxis der Bauchatmung kann Ihr tägliches Leben verändern, Ihnen helfen, Stress effektiver zu bewältigen und eine bessere Gesundheit zu erhalten."
+    },
+    "benefits": {
+      "title": "Hauptvorteile der Bauchatmung:",
+      "list": [
+        "Reduziert Stress und Angst durch Aktivierung des parasympathischen Nervensystems",
+        "Senkt Herzfrequenz und Blutdruck, fördert die kardiovaskuläre Gesundheit",
+        "Verbessert die Stabilität der Rumpfmuskulatur und die Körperhaltung",
+        "Erhöht die Sauerstoffversorgung lebenswichtiger Organe und Gewebe",
+        "Verbessert die Schlafqualität und reduziert Insomnie-Symptome",
+        "Steigert Konzentration und mentale Klarheit",
+        "Stärkt das Immunsystem durch Stressreduktion",
+        "Fördert Verdauung und Stoffwechsel",
+        "Reduziert Muskelverspannungen und körperlichen Stress",
+        "Hilft bei der Bewältigung chronischer Schmerzen"
+      ]
+    },
+    "practice": {
+      "title": "Wie man Bauchatmung praktiziert:",
+      "steps": [
+        "Finden Sie eine bequeme Position, entweder im Sitzen mit gerader Wirbelsäule oder im Liegen auf einer ebenen Fläche. Wenn Sie sitzen, halten Sie Ihre Schultern entspannt und Ihren Kopf in einer Linie mit der Wirbelsäule.",
+        "Legen Sie eine Hand auf Ihre Brust und die andere auf Ihren Bauch, direkt unterhalb des Brustkorbs. Diese Handposition hilft Ihnen, Ihr Atemmuster bewusst wahrzunehmen.",
+        "Beginnen Sie Ihre Bauchatmungsübung, indem Sie langsam durch die Nase einatmen und Ihren Bauch wie einen Ballon aufblasen lassen. Die Hand auf Ihrem Bauch sollte sich heben, während die Hand auf Ihrer Brust relativ still bleiben sollte.",
+        "Atmen Sie langsam durch die gespitzten Lippen aus und spüren Sie, wie Ihr Bauch sinkt. Stellen Sie sich vor, dass Sie mit jedem Ausatmen alle Anspannung loslassen. Die Hand auf Ihrem Bauch sollte in ihre Ausgangsposition zurückkehren.",
+        "Halten Sie einen gleichmäßigen Rhythmus bei Ihrer Bauchatmung. Beginnen Sie mit einer 4-Sekunden-Einatmung und einer 8-Sekunden-Ausatmung.",
+        "Konzentrieren Sie Ihre Aufmerksamkeit auf das Heben und Senken Ihres Bauches und lassen Sie alle ablenkenden Gedanken los."
+      ]
+    },
+    "daily": {
+      "title": "Eine tägliche Bauchatmungspraxis etablieren:",
+      "daily1": "Für Anfänger beginnen Sie mit 5-10 Minuten Bauchatmung, 3-4 mal täglich. Wählen Sie bestimmte Zeiten, wie gleich nach dem Aufwachen, vor den Mahlzeiten oder vor dem Schlafengehen, um eine regelmäßige Übungsroutine zu etablieren. Wenn Sie mit der Technik vertrauter werden, erhöhen Sie allmählich die Dauer Ihrer Bauchatmungssitzungen.",
+      "daily2": "Fortgeschrittene können Bauchatmung in verschiedene Aktivitäten integrieren, wie Gehen, Sport oder in stressigen Situationen. Die Vielseitigkeit der Bauchatmung macht sie zu einem unschätzbaren Werkzeug für das tägliche Stressmanagement und die allgemeine Gesundheitspflege."
+    },
+    "tips": {
+      "title": "Wichtige Tipps für effektive Bauchatmung:",
+      "list": [
+        "Üben Sie zunächst in einer ruhigen Umgebung",
+        "Tragen Sie bequeme, lockere Kleidung",
+        "Halten Sie während der Übung eine korrekte Körperhaltung",
+        "Seien Sie konsequent in Ihrer täglichen Praxis",
+        "Hören Sie auf Ihren Körper und passen Sie das Tempo nach Bedarf an"
+      ]
+    },
+    "conclusion": {
+      "conclusion1": "Wenn Sie während der Bauchatmung Schwindel oder Benommenheit verspüren, kehren Sie zu Ihrem normalen Atemmuster zurück und gehen Sie allmählich wieder zur Übung über. Denken Sie daran, dass Bauchatmung sich natürlich und angenehm anfühlen sollte.",
+      "conclusion2": "Regelmäßige Praxis der Bauchatmung kann langfristige transformative Vorteile bringen, einschließlich verbesserter emotionaler Regulation, erhöhter Stressresistenz und besserer allgemeiner Gesundheit.",
+      "conclusion3": "Diese einfache, aber kraftvolle Atemtechnik ist für jeden zugänglich und kann überall praktiziert werden, was sie zu einem wesentlichen Werkzeug für das moderne Leben macht.",
+      "conclusion4": "Egal, ob Sie mit Stress, Angstzuständen zu kämpfen haben oder einfach Ihr Wohlbefinden verbessern möchten, die Integration von Bauchatmung in Ihre tägliche Routine kann Ihnen helfen, ein besseres Gleichgewicht und mehr Vitalität zu erreichen."
+    }
+  }
+}
