@@ -1,0 +1,15 @@
+{
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.addMissingImports": true
+  },
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
+}

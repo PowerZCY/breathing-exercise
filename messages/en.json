@@ -2,6 +2,14 @@
   "home": {
     "goTop": "Go Top"
   },
+  "embed": {
+    "button": "Embed",
+    "title": "Embed Breathing Exercise",
+    "copy": "Copy Code",
+    "copied": "Code copied to clipboard!",
+    "description": "Add this breathing exercise to your website:",
+    "preview": "Live Preview"
+  },
   "mainPanel": {
     "title": "Belly Breathing Exercise",
     "subTitle": "Select the number of breaths:",

@@ -6,6 +6,8 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import EmbedButton from '@/components/EmbedButton'
+import { Toaster } from "@/components/Toaster"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,12 +51,14 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages} locale={locale}>
           <div className="relative min-h-screen">
             <div className="absolute top-4 right-4 z-50">
+              <EmbedButton />
               <LanguageSwitcher />
             </div>
             {children}
           </div>
           <GoTopButton />
           <GoogleAnalytics />
+          <Toaster />
         </NextIntlClientProvider>
       </body>
     </html>

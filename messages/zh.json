@@ -2,6 +2,14 @@
     "home": {
         "goTop": "回到顶部"
     },
+    "embed": {
+        "button": "嵌出",
+        "title": "嵌入本网站",
+        "copy": "复制代码",
+        "copied": "代码已复制到剪贴板！",
+        "description": "复制如下代码添加到您的网站：",
+        "preview": "实时预览"
+    },
     "mainPanel": {
         "title": "腹式呼吸练习",
         "subTitle": "选择练习次数:",
