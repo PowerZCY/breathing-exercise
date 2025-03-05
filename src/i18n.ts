@@ -28,6 +28,7 @@ export default getRequestConfig(async ({ locale }) => {
   if (!locales.includes(locale as (typeof locales)[number])) notFound();
 
   return {
+    locale, // 明确返回 locale 参数
     messages: (await import(`../messages/${locale}.json`)).default
   };
 });

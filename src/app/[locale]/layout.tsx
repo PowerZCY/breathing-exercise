@@ -1,7 +1,9 @@
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages, unstable_setRequestLocale } from 'next-intl/server'
 import './globals.css'
-import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,16 +30,24 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params
 }: {
   children: React.ReactNode
+  params: Promise<{ locale: string }>
 }) {
+  const { locale } = await params;
+  unstable_setRequestLocale(locale);
+  const messages = await getMessages({ locale });
+
   return (
-    <html lang="en">
+    <html lang={locale} suppressHydrationWarning>
       <body className={inter.className}>
-        <GoogleAnalytics />
-        {children}
+        <NextIntlClientProvider messages={messages} locale={locale}>
+          {children}
+          <GoogleAnalytics />
+        </NextIntlClientProvider>
       </body>
     </html>
   )
