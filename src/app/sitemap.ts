@@ -3,13 +3,12 @@ import { appConfig } from "@/lib/appConfig";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = appConfig.baseUrl
+  const locales = appConfig.i18n.locales
 
-  return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 7,
-    }
-  ]
+  return locales.map(locale => ({
+    url: `${baseUrl}/${locale}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }))
 }
