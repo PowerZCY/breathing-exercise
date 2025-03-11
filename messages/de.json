@@ -81,5 +81,11 @@
       "conclusion3": "Diese einfache, aber kraftvolle Atemtechnik ist für jeden zugänglich und kann überall praktiziert werden, was sie zu einem wesentlichen Werkzeug für das moderne Leben macht.",
       "conclusion4": "Egal, ob Sie mit Stress, Angstzuständen zu kämpfen haben oder einfach Ihr Wohlbefinden verbessern möchten, die Integration von Bauchatmung in Ihre tägliche Routine kann Ihnen helfen, ein besseres Gleichgewicht und mehr Vitalität zu erreichen."
     }
+  },
+  "languageDetection": {
+    "title": "Spracherkennung",
+    "description": "Möchten Sie zu wechseln",
+    "close": "Nein, danke",
+    "changeAction": "Ja, wechseln"
   }
 }

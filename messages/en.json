@@ -81,5 +81,11 @@
       "conclusion3": "This simple yet powerful breathing technique is accessible to everyone and can be practiced anywhere, making it an essential tool for modern life.",
       "conclusion4": "Whether you're dealing with stress, anxiety, or simply want to improve your well-being, incorporating belly breathing into your daily routine can help you achieve greater balance and vitality."
     }
+  },
+  "languageDetection": {
+    "title": "Language Detection",
+    "description": "Would you like to switch to",
+    "close": "No, thanks",
+    "changeAction": "Yes, switch"
   }
 }

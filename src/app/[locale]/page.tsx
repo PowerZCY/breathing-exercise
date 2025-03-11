@@ -4,6 +4,7 @@ import ClientBreathingWrapper from '@/components/ClientBreathingWrapper'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import GoTopButton from '@/components/GoTopButton'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
+import LanguageDetector from '@/components/LanguageDetector'
 import EmbedButton from '@/components/EmbedButton'
 import { Toaster } from "@/components/Toaster"
 
@@ -21,8 +22,9 @@ export default async function Home({ searchParams }: Props) {
 
   return (
     <>
-      <div className="relative min-h-screen">
-        <div className="absolute top-4 right-4 z-50">
+      <LanguageDetector />
+      <div className="relative min-h-screen pt-[0px] language-banner-shown:pt-[48px]">
+        <div className="absolute top-4 right-4 z-40">
           <LanguageSwitcher />
         </div>
         <main className="w-full min-h-screen flex flex-col items-center justify-start bg-blue-50 py-4">

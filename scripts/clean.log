@@ -1,0 +1,643 @@
+开始检查未使用的翻译键...
+找到 24 个文件需要扫描
+在文件 src/components/GoTopButton.tsx 中找到以下信息:
+  翻译函数映射:
+    - t => home
+  翻译键:
+    - home.goTop
+在文件 src/components/EmbedButton.tsx 中找到以下信息:
+  翻译函数映射:
+    - t => embed
+  翻译键:
+    - embed.copied
+    - embed.button
+    - embed.button
+    - embed.title
+    - embed.description
+    - embed.copy
+    - embed.preview
+在文件 src/components/BreathingInstructions.tsx 中找到以下信息:
+  翻译函数映射:
+    - t => instructions
+  翻译键:
+    - instructions.title
+    - instructions.benefits.title
+    - instructions.practice.title
+    - instructions.daily.title
+    - instructions.tips.title
+在文件 src/components/BreathingExercise.tsx 中找到以下信息:
+  翻译函数映射:
+    - t => mainPanel
+  翻译键:
+    - mainPanel.title
+    - mainPanel.subTitle
+    - mainPanel.unit
+    - mainPanel.unit
+    - mainPanel.unit
+    - mainPanel.startButton
+    - mainPanel.resetButton
+    - mainPanel.inhale
+    - mainPanel.exhale
+    - mainPanel.progress
+    - mainPanel.unit
+    - mainPanel.helpMsg
+    - mainPanel.completedTitle
+    - mainPanel.completedMsg
+    - mainPanel.completedX
+
+在代码中找到 24 个使用的翻译键
+在代码中找到 4 个使用的命名空间: home, embed, instructions, mainPanel
+
+在 en 翻译文件中找到 33 个未使用的键
+在 en 翻译文件中找到 0 个未使用的命名空间
+
+在 zh 翻译文件中找到 33 个未使用的键
+在 zh 翻译文件中找到 0 个未使用的命名空间
+
+在 ja 翻译文件中找到 33 个未使用的键
+在 ja 翻译文件中找到 0 个未使用的命名空间
+
+在 ko 翻译文件中找到 33 个未使用的键
+在 ko 翻译文件中找到 0 个未使用的命名空间
+
+在 fr 翻译文件中找到 33 个未使用的键
+在 fr 翻译文件中找到 0 个未使用的命名空间
+
+在 de 翻译文件中找到 33 个未使用的键
+在 de 翻译文件中找到 0 个未使用的命名空间
+
+在 es 翻译文件中找到 33 个未使用的键
+在 es 翻译文件中找到 0 个未使用的命名空间
+
+在 it 翻译文件中找到 33 个未使用的键
+在 it 翻译文件中找到 0 个未使用的命名空间
+
+在 pt 翻译文件中找到 33 个未使用的键
+在 pt 翻译文件中找到 0 个未使用的命名空间
+
+在 ru 翻译文件中找到 33 个未使用的键
+在 ru 翻译文件中找到 0 个未使用的命名空间
+
+在 ar 翻译文件中找到 33 个未使用的键
+在 ar 翻译文件中找到 0 个未使用的命名空间
+
+在 hi 翻译文件中找到 33 个未使用的键
+在 hi 翻译文件中找到 0 个未使用的命名空间
+
+在 tr 翻译文件中找到 33 个未使用的键
+在 tr 翻译文件中找到 0 个未使用的命名空间
+
+在 pl 翻译文件中找到 33 个未使用的键
+在 pl 翻译文件中找到 0 个未使用的命名空间
+
+在 uk 翻译文件中找到 33 个未使用的键
+在 uk 翻译文件中找到 0 个未使用的命名空间
+
+要删除未使用的键，请使用 --remove 参数运行脚本
+
+=== 未使用的翻译键报告 ===
+
+✅ en 翻译文件中没有未使用的命名空间
+
+🔍 en 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ zh 翻译文件中没有未使用的命名空间
+
+🔍 zh 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ ja 翻译文件中没有未使用的命名空间
+
+🔍 ja 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ ko 翻译文件中没有未使用的命名空间
+
+🔍 ko 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ fr 翻译文件中没有未使用的命名空间
+
+🔍 fr 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ de 翻译文件中没有未使用的命名空间
+
+🔍 de 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ es 翻译文件中没有未使用的命名空间
+
+🔍 es 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ it 翻译文件中没有未使用的命名空间
+
+🔍 it 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ pt 翻译文件中没有未使用的命名空间
+
+🔍 pt 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ ru 翻译文件中没有未使用的命名空间
+
+🔍 ru 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ ar 翻译文件中没有未使用的命名空间
+
+🔍 ar 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ hi 翻译文件中没有未使用的命名空间
+
+🔍 hi 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ tr 翻译文件中没有未使用的命名空间
+
+🔍 tr 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ pl 翻译文件中没有未使用的命名空间
+
+🔍 pl 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+✅ uk 翻译文件中没有未使用的命名空间
+
+🔍 uk 翻译文件中未使用的键:
+  - instructions.intro.text1
+  - instructions.intro.text2
+  - instructions.intro.text3
+  - instructions.intro.text4
+  - instructions.intro.text5
+  - instructions.intro.text6
+  - instructions.benefits.list.0
+  - instructions.benefits.list.1
+  - instructions.benefits.list.2
+  - instructions.benefits.list.3
+  - instructions.benefits.list.4
+  - instructions.benefits.list.5
+  - instructions.benefits.list.6
+  - instructions.benefits.list.7
+  - instructions.benefits.list.8
+  - instructions.benefits.list.9
+  - instructions.practice.steps.0
+  - instructions.practice.steps.1
+  - instructions.practice.steps.2
+  - instructions.practice.steps.3
+  - instructions.practice.steps.4
+  - instructions.practice.steps.5
+  - instructions.daily.daily1
+  - instructions.daily.daily2
+  - instructions.tips.list.0
+  - instructions.tips.list.1
+  - instructions.tips.list.2
+  - instructions.tips.list.3
+  - instructions.tips.list.4
+  - instructions.conclusion.conclusion1
+  - instructions.conclusion.conclusion2
+  - instructions.conclusion.conclusion3
+  - instructions.conclusion.conclusion4
+
+=== 报告结束 ===
+
+检查完成，日志已保存到 /Users/funeye/IdeaProjects/breathing-exercise/scripts/clean.log

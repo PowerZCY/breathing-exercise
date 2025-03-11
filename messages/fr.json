@@ -81,5 +81,11 @@
             "conclusion3": "Cette technique de respiration simple mais puissante est accessible à tous et peut être pratiquée n'importe où, ce qui en fait un outil essentiel pour la vie moderne.",
             "conclusion4": "Que vous fassiez face au stress, à l'anxiété ou que vous souhaitiez simplement améliorer votre bien-être, intégrer la respiration ventrale dans votre routine quotidienne peut vous aider à atteindre un meilleur équilibre et une plus grande vitalité."
         }
+    },
+    "languageDetection": {
+        "title": "Détection de la langue",
+        "description": "Souhaitez-vous passer à",
+        "close": "Non, merci",
+        "changeAction": "Oui, changer"
     }
 }

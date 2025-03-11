@@ -81,5 +81,11 @@
       "conclusion3": "Bu basit ama güçlü solunum tekniği herkes için erişilebilir ve her yerde uygulanabilir, bu da onu modern yaşam için vazgeçilmez bir araç haline getirir.",
       "conclusion4": "Stres, kaygı ile başa çıkıyor veya sadece refahınızı artırmak istiyorsanız, günlük rutininize karın solunumunu dahil etmek, daha iyi bir denge ve daha fazla canlılık elde etmenize yardımcı olabilir."
     }
+  },
+  "languageDetection": {
+    "title": "Dil Algılama",
+    "description": "Şuna geçmek ister misiniz",
+    "close": "Hayır, teşekkürler",
+    "changeAction": "Evet, geç"
   }
 }

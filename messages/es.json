@@ -81,5 +81,11 @@
       "conclusion3": "Esta técnica de respiración simple pero poderosa es accesible para todos y se puede practicar en cualquier lugar, lo que la convierte en una herramienta esencial para la vida moderna.",
       "conclusion4": "Ya sea que estés lidiando con el estrés, la ansiedad o simplemente quieras mejorar tu bienestar, incorporar la respiración abdominal en tu rutina diaria puede ayudarte a lograr un mejor equilibrio y mayor vitalidad."
     }
+  },
+  "languageDetection": {
+    "title": "Detección de idioma",
+    "description": "¿Te gustaría cambiar a",
+    "close": "No, gracias",
+    "changeAction": "Sí, cambiar"
   }
 }

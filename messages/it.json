@@ -81,5 +81,11 @@
       "conclusion3": "Questa tecnica di respirazione semplice ma potente è accessibile a tutti e può essere praticata ovunque, rendendola uno strumento essenziale per la vita moderna.",
       "conclusion4": "Che tu stia affrontando lo stress, l'ansia o semplicemente desideri migliorare il tuo benessere, incorporare la respirazione addominale nella tua routine quotidiana può aiutarti a raggiungere un migliore equilibrio e maggiore vitalità."
     }
+  },
+  "languageDetection": {
+    "title": "Rilevamento della lingua",
+    "description": "Vuoi passare a",
+    "close": "No, grazie",
+    "changeAction": "Sì, cambia"
   }
 }

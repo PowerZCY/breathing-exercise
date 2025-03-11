@@ -57,12 +57,38 @@ export default {
 			},
 			animation: {
 				'fade-in': 'fadeIn 0.3s ease-in-out',
+				'gradient-x': 'gradient-x 8s ease infinite',
+				'shimmer': 'shimmer 1.5s ease-in-out infinite',
 			},
 			keyframes: {
 				fadeIn: {
 					'0%': { opacity: '0' },
 					'100%': { opacity: '1' },
 				},
+				'gradient-x': {
+					'0%, 100%': {
+						'background-position': '200% 0',
+					},
+					'50%': {
+						'background-position': '0 0',
+					},
+				},
+				'shimmer': {
+					'0%': {
+						transform: 'translateX(-100%)',
+						opacity: '0',
+					},
+					'50%': {
+						opacity: '1',
+					},
+					'100%': {
+						transform: 'translateX(100%)',
+						opacity: '0',
+					},
+				},
+			},
+			backgroundSize: {
+				'200%': '200% 100%',
 			},
 		}
 	},

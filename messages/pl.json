@@ -81,5 +81,11 @@
       "conclusion3": "Ta prosta, ale potężna technika oddychania jest dostępna dla każdego i może być praktykowana wszędzie, co czyni ją niezbędnym narzędziem dla współczesnego życia.",
       "conclusion4": "Niezależnie od tego, czy zmagasz się ze stresem, lękiem, czy po prostu chcesz poprawić swoje samopoczucie, włączenie oddychania brzusznego do swojej codziennej rutyny może pomóc ci osiągnąć lepszą równowagę i większą witalność."
     }
+  },
+  "languageDetection": {
+    "title": "Wykrywanie języka",
+    "description": "Czy chcesz przełączyć na",
+    "close": "Nie, dziękuję",
+    "changeAction": "Tak, przełącz"
   }
 }

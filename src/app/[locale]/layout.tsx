@@ -1,3 +1,4 @@
+import { appConfig } from "@/lib/appConfig"
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, unstable_setRequestLocale } from 'next-intl/server'
@@ -10,11 +11,11 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Breathing Exercise',
-  description: 'Practice guided belly breathing exercises for stress relief and better health',
-  keywords: 'breathing exercise, meditation, stress relief, diaphragmatic breathing, belly breathing,mindfulness',
-  metadataBase: new URL('https://breathingexercise.net'),
+  description: 'Practice guided belly breathing exercises for stress relief, better health, and for all mankind.',
+  keywords: 'breathing exercise, meditation, stress relief, diaphragmatic breathing, belly breathing,mindfulness, internationalized, support for 20 languages',
+  metadataBase: new URL(appConfig.baseUrl),
   alternates: {
-    canonical: 'https://breathingexercise.net/',
+    canonical: appConfig.baseUrl,
   },
   icons: {
     icon: [
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Breathing Exercise',
-    description: 'Practice guided belly breathing exercises for stress relief and better health',
+    description: 'Practice guided belly breathing exercises for stress relief, better health, and for all mankind.',
     type: 'website',
   },
 }
