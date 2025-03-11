@@ -31,6 +31,15 @@ export default function LanguageDetector() {
     if (appConfig.i18n.locales.includes(browserLang) && browserLang !== currentLocale) {
       setDetectedLocale(browserLang)
       setShow(true)
+
+      // 设置10秒后自动关闭
+      const timer = setTimeout(() => {
+        console.log('[LanguageDetector] Auto closing after 10s timeout')
+        setShow(false)
+      }, 10000)
+
+      // 清理定时器
+      return () => clearTimeout(timer)
     }
   }, [currentLocale])
 
