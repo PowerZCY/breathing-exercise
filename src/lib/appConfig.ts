@@ -21,6 +21,12 @@ export const appConfig = {
       tr: "Türkçe",
       pl: "Polski",
       uk: "Українська"
+    },
+    detector: {
+      storageKey: 'language-preference-status',
+      autoCloseTimeout: 10000,
+      expirationDays: 30,
+      storagePrefix: 'AI-Affiliate'
     }
   }
 };
