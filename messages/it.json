@@ -1,6 +1,10 @@
 {
   "home": {
-    "goTop": "Torna su"
+    "goTop": "Torna su",
+    "title": "Esercizio di respirazione",
+    "description": "Pratica esercizi guidati di respirazione addominale per il sollievo dallo stress, una migliore salute e per tutta l'umanità",
+    "keywords": "esercizio di respirazione, meditazione, sollievo dallo stress, respirazione diaframmatica, respirazione addominale, mindfulness, internazionalizzato, supporto per 20 lingue",
+    "preview": "Anteprima"
   },
   "embed": {
     "button": "Aggiungi al tuo sito web",
