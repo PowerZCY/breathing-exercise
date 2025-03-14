@@ -5,10 +5,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = appConfig.baseUrl
   const locales = appConfig.i18n.locales
 
-  return locales.map(locale => ({
-    url: `${baseUrl}/${locale}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.7,
-  }))
+  const routes = [
+    // 主页面（各语言版本）
+    ...locales.map(locale => ({
+      url: `${baseUrl}/${locale}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 1.0
+    }))
+  ]
+
+  return routes
 }
