@@ -1,6 +1,9 @@
 import { MetadataRoute } from 'next'
 import { appConfig } from "@/lib/appConfig";
 
+// 强制静态生成
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = appConfig.baseUrl
   const locales = appConfig.i18n.locales
