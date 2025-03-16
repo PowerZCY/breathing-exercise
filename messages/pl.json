@@ -1,6 +1,10 @@
 {
   "home": {
-    "goTop": "Do góry"
+    "goTop": "Do góry",
+    "title": "Ćwiczenie oddechowe",
+    "description": "Praktykuj prowadzone ćwiczenia oddychania brzusznego dla ulgi w stresie, lepszego zdrowia i dla całej ludzkości",
+    "keywords": "ćwiczenie oddechowe, medytacja, ulga w stresie, oddychanie przeponowe, oddychanie brzuszne, uważność, umiędzynarodowione, wsparcie dla 20 języków",
+    "preview": "Podgląd"
   },
   "embed": {
     "button": "Dodaj do swojej strony",

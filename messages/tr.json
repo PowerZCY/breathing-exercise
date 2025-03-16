@@ -1,6 +1,10 @@
 {
   "home": {
-    "goTop": "Yukarı git"
+    "goTop": "Yukarı git",
+    "title": "Nefes Egzersizi",
+    "description": "Stres giderme, daha iyi sağlık ve tüm insanlık için rehberli karın nefesi egzersizleri yapın",
+    "keywords": "nefes egzersizi, meditasyon, stres giderme, diyafram nefesi, karın nefesi, farkındalık, uluslararasılaştırılmış, 20 dil desteği",
+    "preview": "Önizleme"
   },
   "embed": {
     "button": "Web sitenize ekleyin",

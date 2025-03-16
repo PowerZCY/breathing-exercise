@@ -1,6 +1,10 @@
 {
   "home": {
-    "goTop": "Ir arriba"
+    "goTop": "Ir arriba",
+    "title": "Ejercicio de respiración",
+    "description": "Practica ejercicios guiados de respiración abdominal para aliviar el estrés, mejorar la salud y para toda la humanidad",
+    "keywords": "ejercicio de respiración, meditación, alivio del estrés, respiración diafragmática, respiración abdominal, mindfulness, internacionalizado, soporte para 20 idiomas",
+    "preview": "Vista previa"
   },
   "embed": {
     "button": "Agregar a tu sitio web",

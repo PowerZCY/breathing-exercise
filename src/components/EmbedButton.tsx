@@ -25,6 +25,7 @@ import { useState } from 'react'
 export default function EmbedButton() {
     const [open, setOpen] = useState(false)
     const t = useTranslations('embed')
+    const t1 = useTranslations('home')
     const { toast } = useToast()
     const locale = useLocale()
 
@@ -33,7 +34,7 @@ export default function EmbedButton() {
     <iframe 
         src="${appConfig.baseUrl}/${locale}?embed=true" 
         style="width: 100%; height: 520px; border: none; overflow: hidden;"
-        title="Breathing Exercise"
+        title="${t1('title')}"
         loading="lazy">
     </iframe>`
 
@@ -97,7 +98,7 @@ export default function EmbedButton() {
                                             height: '100%',
                                             border: 'none',
                                         }}
-                                        title="Breathing Exercise Preview"
+                                        title={`${t1('title')} ${t1('preview')}`}
                                     />
                                 </div>
                             </div>

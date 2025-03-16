@@ -16,6 +16,15 @@ import { useEffect, useState } from 'react'
 
 type Locale = typeof appConfig.i18n.locales[number]
 
+// 从配置中获取存储key
+const LANGUAGE_PREFERENCE_KEY = `${appConfig.i18n.detector.storagePrefix}-${appConfig.i18n.detector.storageKey}`
+
+interface LanguagePreference {
+  locale: string;
+  status: 'accepted' | 'rejected';
+  timestamp: number;
+}
+
 export default function LanguageDetector() {
   const [show, setShow] = useState(false)
   const [detectedLocale, setDetectedLocale] = useState<Locale | null>(null)
@@ -26,25 +35,67 @@ export default function LanguageDetector() {
   useEffect(() => {
     // 获取浏览器语言
     const browserLang = navigator.language.split('-')[0] as Locale
-    
-    // 检查浏览器语言是否在支持的语言列表中
-    if (appConfig.i18n.locales.includes(browserLang) && browserLang !== currentLocale) {
+
+    // 从localStorage获取语言偏好
+    const savedPreference = localStorage.getItem(LANGUAGE_PREFERENCE_KEY)
+    const preference: LanguagePreference | null = savedPreference
+      ? JSON.parse(savedPreference)
+      : null
+
+    // 检查是否需要显示语言检测框
+    const shouldShowDetector = () => {
+      if (!preference) return true;
+
+      // 如果存储的语言与当前语言相同，不显示检测框
+      if (preference.locale === currentLocale) return false;
+
+      // 如果用户之前已经拒绝过切换到这个语言，不显示检测框
+      if (preference.status === 'rejected' && preference.locale === browserLang) return false;
+
+      // 如果用户之前接受过切换到这个语言，不显示检测框
+      if (preference.status === 'accepted' && preference.locale === currentLocale) return false;
+
+      // 使用配置中的过期时间
+      const expirationMs = appConfig.i18n.detector.expirationDays * 24 * 60 * 60 * 1000;
+      if (Date.now() - preference.timestamp < expirationMs) return false;
+
+      return true;
+    }
+
+    // 检查浏览器语言是否在支持的语言列表中且需要显示检测框
+    if (appConfig.i18n.locales.includes(browserLang) &&
+      browserLang !== currentLocale &&
+      shouldShowDetector()) {
       setDetectedLocale(browserLang)
       setShow(true)
 
-      // 设置10秒后自动关闭
+      // 使用配置中的自动关闭时间
       const timer = setTimeout(() => {
-        console.log('[LanguageDetector] Auto closing after 10s timeout')
+        console.log('[LanguageDetector] Auto closing after timeout')
         setShow(false)
-      }, 10000)
+        // 自动关闭时保存拒绝状态
+        savePreference(browserLang, 'rejected')
+      }, appConfig.i18n.detector.autoCloseTimeout)
 
-      // 清理定时器
       return () => clearTimeout(timer)
     }
   }, [currentLocale])
 
+  // 保存语言偏好到localStorage
+  const savePreference = (locale: string, status: 'accepted' | 'rejected') => {
+    const preference: LanguagePreference = {
+      locale,
+      status,
+      timestamp: Date.now()
+    }
+    localStorage.setItem(LANGUAGE_PREFERENCE_KEY, JSON.stringify(preference))
+  }
+
   const handleLanguageChange = () => {
     if (detectedLocale) {
+      // 保存接受状态
+      savePreference(detectedLocale, 'accepted')
+
       // 获取当前路径
       const pathname = window.location.pathname
       // 替换语言部分
@@ -53,6 +104,14 @@ export default function LanguageDetector() {
       router.push(newPathname)
       setShow(false)
     }
+  }
+
+  const handleClose = () => {
+    if (detectedLocale) {
+      // 保存拒绝状态
+      savePreference(detectedLocale, 'rejected')
+    }
+    setShow(false)
   }
 
   if (!detectedLocale || !show) return null
@@ -74,7 +133,7 @@ export default function LanguageDetector() {
                 </p>
               </div>
               <button
-                onClick={() => setShow(false)}
+                onClick={handleClose}
                 className="text-gray-500 hover:text-gray-700"
               >
                 <X className="h-5 w-5" />
@@ -82,7 +141,7 @@ export default function LanguageDetector() {
             </div>
             <div className="flex items-center gap-3">
               <button
-                onClick={() => setShow(false)}
+                onClick={handleClose}
                 className="flex-1 px-4 py-2 text-base bg-gray-100 text-gray-600 rounded-md hover:bg-gray-200"
               >
                 {t('close')}
