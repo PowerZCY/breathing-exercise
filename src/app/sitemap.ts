@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     // 主页面（各语言版本）
     ...locales.map(locale => ({
-      url: `${baseUrl}/${locale}`,
+      url: `${baseUrl}/${locale}/`,
       lastModified: new Date(),
       changeFrequency: 'weekly' as const,
       priority: 1.0
