@@ -11,7 +11,7 @@
         "preview": "Aperçu en direct"
     },
     "mainPanel": {
-        "title": "Exercice de Respiration Ventrale",
+        "title": "Exercices de Respiration Abdominale",
         "subTitle": "Sélectionnez le nombre de respirations :",
         "unit": "respirations",
         "startButton": "Commencer",
@@ -25,61 +25,61 @@
         "completedX": "Prenez un moment pour observer comment vous vous sentez"
     },
     "instructions": {
-        "title": "Pourquoi pratiquer la respiration ventrale ?",
+        "title": "Pourquoi pratiquer les exercices de respiration abdominale ?",
         "intro": {
-            "text1": "La respiration ventrale, également connue sous le nom de respiration diaphragmatique, est une technique fondamentale mais puissante pratiquée depuis des milliers d'années dans diverses cultures.",
-            "text2": "Cette ancienne pratique de la respiration ventrale a obtenu un soutien scientifique important ces dernières années, alors que les chercheurs continuent de découvrir ses effets profonds sur la santé physique et mentale.",
-            "text3": "Lorsque vous pratiquez la respiration ventrale, vous engagez le diaphragme - un muscle en forme de dôme à la base de vos poumons - qui est naturellement conçu pour gérer la majeure partie de votre travail respiratoire.",
-            "text4": "La vie moderne conduit souvent à des schémas de respiration superficiels basés sur la poitrine, ce qui peut contribuer au stress et à l'anxiété.",
-            "text5": "En revenant à des schémas de respiration ventrale naturels, nous pouvons activer la réponse de relaxation du corps et améliorer notre bien-être général.",
-            "text6": "La pratique régulière de la respiration ventrale peut transformer votre vie quotidienne, vous aidant à gérer le stress plus efficacement et à maintenir une meilleure santé."
+            "text1": "Les exercices de respiration abdominale constituent une technique fondamentale mais puissante pratiquée depuis des milliers d'années dans diverses cultures à travers le monde.",
+            "text2": "Ces anciens exercices de respiration abdominale ont obtenu un soutien scientifique important ces dernières années, alors que les chercheurs continuent de découvrir leurs effets profonds sur la santé physique et mentale.",
+            "text3": "Lorsque vous pratiquez les exercices de respiration abdominale, vous engagez le diaphragme - un muscle en forme de dôme à la base de vos poumons - qui est naturellement conçu pour gérer la majeure partie de votre travail respiratoire.",
+            "text4": "La vie moderne conduit souvent à des schémas de respiration superficiels, ce qui peut contribuer au stress et à l'anxiété, mais les exercices de respiration abdominale aident à corriger ces habitudes.",
+            "text5": "En revenant à des schémas naturels grâce aux exercices de respiration abdominale, nous pouvons activer la réponse de relaxation du corps et améliorer notre bien-être général.",
+            "text6": "La pratique régulière des exercices de respiration abdominale peut transformer votre vie quotidienne, vous aidant à gérer le stress plus efficacement et à maintenir une meilleure santé."
         },
         "benefits": {
-            "title": "Principaux avantages de la respiration ventrale :",
+            "title": "Principaux avantages des exercices de respiration abdominale :",
             "list": [
-                "Réduit le stress et l'anxiété en activant le système nerveux parasympathique",
-                "Abaisse la fréquence cardiaque et la pression artérielle, favorisant la santé cardiovasculaire",
-                "Améliore la stabilité des muscles centraux et la posture",
-                "Augmente l'apport d'oxygène aux organes et tissus vitaux",
-                "Améliore la qualité du sommeil et réduit les symptômes de l'insomnie",
-                "Améliore la concentration et la clarté mentale",
-                "Renforce le système immunitaire par la réduction du stress",
-                "Aide à la digestion et au métabolisme",
-                "Réduit la tension musculaire et le stress physique",
-                "Aide à gérer les conditions de douleur chronique"
+                "Les exercices de respiration abdominale réduisent le stress et l'anxiété en activant le système nerveux parasympathique",
+                "Abaissent la fréquence cardiaque et la pression artérielle, favorisant la santé cardiovasculaire",
+                "Améliorent la stabilité des muscles centraux et la posture",
+                "Les exercices de respiration abdominale augmentent l'apport d'oxygène aux organes et tissus vitaux",
+                "Améliorent la qualité du sommeil et réduisent les symptômes de l'insomnie",
+                "Les exercices de respiration abdominale renforcent la concentration et la clarté mentale",
+                "Fortifient le système immunitaire par la réduction du stress",
+                "Aident à la digestion et au métabolisme",
+                "Les exercices de respiration abdominale réduisent la tension musculaire et le stress physique",
+                "Aident à gérer les conditions de douleur chronique"
             ]
         },
         "practice": {
-            "title": "Comment pratiquer la respiration ventrale :",
+            "title": "Comment pratiquer les exercices de respiration abdominale :",
             "steps": [
-                "Trouvez une position confortable, soit assis avec la colonne vertébrale droite, soit allongé sur une surface plane. Si vous êtes assis, gardez vos épaules détendues et votre tête alignée avec votre colonne vertébrale.",
-                "Placez une main sur votre poitrine et l'autre sur votre ventre, juste en dessous de la cage thoracique. Ce positionnement des mains vous aide à prendre conscience de votre schéma respiratoire.",
-                "Commencez votre pratique de respiration ventrale en inspirant lentement par le nez, permettant à votre ventre de se gonfler comme un ballon. La main sur votre ventre devrait se soulever, tandis que la main sur votre poitrine devrait rester relativement immobile.",
-                "Expirez lentement par les lèvres pincées, en sentant votre ventre descendre. Imaginez relâcher toute tension à chaque expiration. La main sur votre ventre devrait revenir à sa position de départ.",
-                "Maintenez un rythme régulier dans votre respiration ventrale. Visez une inspiration de 4 secondes et une expiration de 8 secondes pour commencer.",
-                "Concentrez votre attention sur la sensation de montée et descente de votre ventre, en laissant aller toutes les pensées distrayantes."
+                "Trouvez une position confortable pour vos exercices de respiration abdominale, soit assis avec la colonne vertébrale droite, soit allongé sur une surface plane.",
+                "Placez une main sur votre poitrine et l'autre sur votre ventre. Ce positionnement vous aide à prendre conscience de votre schéma pendant les exercices de respiration abdominale.",
+                "Commencez vos exercices de respiration abdominale en inspirant lentement par le nez, permettant à votre ventre de se gonfler comme un ballon. Pendant l'inspiration, votre ventre doit s'étendre vers l'extérieur tandis que votre poitrine reste relativement immobile.",
+                "Expirez lentement par les lèvres pincées, en sentant votre ventre descendre. Pendant l'expiration, votre ventre se contracte vers l'intérieur alors que votre poitrine continue de rester relativement immobile. Imaginez relâcher toute tension à chaque expiration.",
+                "Maintenez un rythme régulier dans vos exercices de respiration abdominale. Visez une inspiration de 4 secondes et une expiration de 8 secondes.",
+                "Concentrez votre attention sur les sensations pendant vos exercices de respiration abdominale, en laissant aller toutes les pensées distrayantes. Le contraste entre le mouvement du ventre et l'immobilité relative de la poitrine est un signe de respiration abdominale correcte."
             ]
         },
         "daily": {
-            "title": "Établir une pratique quotidienne de respiration ventrale :",
-            "daily1": "Pour les débutants, commencez par 5 à 10 minutes de respiration ventrale, 3 à 4 fois par jour. Choisissez des moments spécifiques, comme au réveil, avant les repas ou avant de dormir, pour établir une routine de pratique régulière. À mesure que vous devenez plus à l'aise avec la technique, augmentez progressivement la durée de vos séances de respiration ventrale.",
-            "daily2": "Les pratiquants avancés peuvent intégrer la respiration ventrale dans diverses activités, comme la marche, l'exercice ou pendant des situations stressantes. La polyvalence de la respiration ventrale en fait un outil inestimable pour la gestion quotidienne du stress et le maintien de la santé globale."
+            "title": "Établir une pratique quotidienne d'exercices de respiration abdominale :",
+            "daily1": "Pour les débutants, commencez par 5 à 10 minutes d'exercices de respiration abdominale, 3 à 4 fois par jour. Choisissez des moments spécifiques, comme au réveil, avant les repas ou avant de dormir, pour établir une routine régulière. À mesure que vous progressez, augmentez la durée de vos séances d'exercices de respiration abdominale.",
+            "daily2": "Les pratiquants avancés peuvent intégrer les exercices de respiration abdominale dans diverses activités, comme la marche, l'exercice physique ou pendant des situations stressantes. La polyvalence des exercices de respiration abdominale en fait un outil inestimable pour la gestion quotidienne du stress."
         },
         "tips": {
-            "title": "Conseils importants pour une respiration ventrale efficace :",
+            "title": "Conseils importants pour des exercices de respiration abdominale efficaces :",
             "list": [
-                "Pratiquez initialement dans un environnement calme",
-                "Portez des vêtements confortables et amples",
+                "Pratiquez initialement les exercices de respiration abdominale dans un environnement calme",
+                "Portez des vêtements confortables pendant vos exercices de respiration abdominale",
                 "Maintenez une posture correcte pendant la pratique",
-                "Soyez constant dans votre pratique quotidienne",
+                "Soyez constant dans vos exercices de respiration abdominale quotidiens",
                 "Écoutez votre corps et ajustez le rythme selon vos besoins"
             ]
         },
         "conclusion": {
-            "conclusion1": "Si vous ressentez des étourdissements ou des vertiges pendant la respiration ventrale, revenez à votre schéma respiratoire normal et reprenez progressivement la pratique. Rappelez-vous que la respiration ventrale devrait sembler naturelle et confortable.",
-            "conclusion2": "La pratique régulière de la respiration ventrale peut apporter des avantages transformateurs à long terme, notamment une meilleure régulation émotionnelle, une résilience accrue au stress et une meilleure santé globale.",
-            "conclusion3": "Cette technique de respiration simple mais puissante est accessible à tous et peut être pratiquée n'importe où, ce qui en fait un outil essentiel pour la vie moderne.",
-            "conclusion4": "Que vous fassiez face au stress, à l'anxiété ou que vous souhaitiez simplement améliorer votre bien-être, intégrer la respiration ventrale dans votre routine quotidienne peut vous aider à atteindre un meilleur équilibre et une plus grande vitalité."
+            "conclusion1": "Si vous ressentez des étourdissements pendant les exercices de respiration abdominale, revenez à votre schéma respiratoire normal et reprenez progressivement. Rappelez-vous que ces exercices doivent sembler naturels et confortables.",
+            "conclusion2": "La pratique régulière des exercices de respiration abdominale peut apporter des avantages transformateurs à long terme, notamment une meilleure régulation émotionnelle et une résilience accrue au stress.",
+            "conclusion3": "Ces exercices de respiration abdominale simples mais puissants sont accessibles à tous et peuvent être pratiqués n'importe où, ce qui en fait un outil essentiel pour la vie moderne.",
+            "conclusion4": "Que vous fassiez face au stress ou que vous souhaitiez simplement améliorer votre bien-être, intégrer les exercices de respiration abdominale dans votre routine quotidienne peut vous aider à atteindre un meilleur équilibre."
         }
     },
     "languageDetection": {
