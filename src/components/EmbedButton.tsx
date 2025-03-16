@@ -32,7 +32,7 @@ export default function EmbedButton() {
     // 修改 iframe 的高度设置
     const embedCode = `
     <iframe 
-        src="${appConfig.baseUrl}/${locale}/?embed=true" 
+        src="${appConfig.baseUrl}/${locale}?embed=true" 
         style="width: 100%; height: 520px; border: none; overflow: hidden;"
         title="${t1('title')}"
         loading="lazy">
@@ -92,7 +92,7 @@ export default function EmbedButton() {
                                 <h3 className="text-sm font-medium mb-2">{t('preview')}</h3>
                                 <div className="w-full h-[570px] overflow-hidden">
                                     <iframe
-                                        src={`${appConfig.baseUrl}/${locale}/?embed=true`}
+                                        src={`${appConfig.baseUrl}/${locale}?embed=true`}
                                         style={{
                                             width: '100%',
                                             height: '100%',
