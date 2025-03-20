@@ -1,4 +1,4 @@
-import { NextRequest } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import createMiddleware from 'next-intl/middleware';
 import { appConfig } from "./lib/appConfig";
 
@@ -29,6 +29,11 @@ const intlMiddleware = createMiddleware({
 });
 
 export function middleware(request: NextRequest) {
+  // 处理favicon.ico请求
+  if (request.nextUrl.pathname === '/favicon.ico') {
+    return NextResponse.rewrite(new URL('/favicon.svg', request.url));
+  }
+  
   return intlMiddleware(request);
 }
 
