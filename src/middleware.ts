@@ -29,6 +29,12 @@ const intlMiddleware = createMiddleware({
 });
 
 export function middleware(request: NextRequest) {
+  // 处理根路径到默认语言的永久重定向
+  if (request.nextUrl.pathname === '/') {
+    const defaultLocale = appConfig.i18n.defaultLocale;
+    return NextResponse.redirect(new URL(`/${defaultLocale}`, request.url), 301);
+  }
+
   // 处理favicon.ico请求
   if (request.nextUrl.pathname === '/favicon.ico') {
     return NextResponse.rewrite(new URL('/favicon.svg', request.url));
