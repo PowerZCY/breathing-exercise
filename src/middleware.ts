@@ -35,11 +35,17 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(`/${defaultLocale}`, request.url), 301);
   }
 
+  // 处理尾部斜杠的重定向
+  if (request.nextUrl.pathname.length > 1 && request.nextUrl.pathname.endsWith('/')) {
+    const newUrl = new URL(request.nextUrl.pathname.slice(0, -1), request.url);
+    return NextResponse.redirect(newUrl, 301);
+  }
+
   // 处理favicon.ico请求
   if (request.nextUrl.pathname === '/favicon.ico') {
     return NextResponse.rewrite(new URL('/favicon.svg', request.url));
   }
-  
+
   return intlMiddleware(request);
 }
 
