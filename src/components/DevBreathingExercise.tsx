@@ -48,7 +48,7 @@ export default function BreathingExercise() {
     if (audioRef) {
       // 重置音频以便重新播放
       audioRef.currentTime = 0;
-      audioRef.play().catch(e => console.error("音频播放失败:", e));
+      audioRef.play().catch(e => console.error("Audio play failed!:", e));
     }
   };
 
@@ -159,20 +159,24 @@ export default function BreathingExercise() {
           </RadioGroup>
         </div>
 
-        <div className="flex space-x-2 mb-4">
+        <div className="flex space-x-2 mb-8">
           <Button
             onClick={startExercise}
             disabled={isExercising}
-            className="bg-[#C4B5FD] hover:bg-violet-400 text-white"
+            className="bg-white text-violet-500 rounded-full px-6 flex items-center gap-2 border border-violet-400 hover:bg-pink-50"
           >
+            <div className="w-2 h-2 rounded-full bg-violet-400"></div>
             {t('startButton')}
+            <div className="w-2 h-2 rounded-full bg-pink-400"></div>
           </Button>
           <Button
             onClick={resetExercise}
             variant="outline"
-            className="border-violet-400 text-violet-500 hover:bg-violet-50"
+            className="border-violet-400 text-violet-500 hover:bg-violet-50 rounded-full px-6 flex items-center gap-2"
           >
+            <div className="w-2 h-2 rounded-full bg-pink-400"></div>
             {t('resetButton')}
+            <div className="w-2 h-2 rounded-full bg-violet-400"></div>
           </Button>
         </div>
         <div className="flex flex-col items-center space-y-4">
@@ -199,13 +203,55 @@ export default function BreathingExercise() {
                 cy="50"
                 r="45"
                 fill="#C4B5FD"
+                stroke="#E9D5FF"
+                strokeWidth="3"
               />
-            </svg>
-            <div className="absolute inset-0 flex items-center justify-center text-white text-2xl font-bold">
               {animationState && (
-                `${timer}s / ${animationState === 'inhale' ? INHALE_DURATION : EXHALE_DURATION}s`
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="45"
+                  fill="none"
+                  stroke="#8B5CF6"
+                  strokeWidth="3"
+                  strokeDasharray={`${2 * Math.PI * 45}`}
+                  strokeDashoffset={`${2 * Math.PI * 45 * (1 - ((currentBreath * (INHALE_DURATION + EXHALE_DURATION) +
+                    (animationState === 'inhale' ? timer : INHALE_DURATION + timer)) /
+                    (parseInt(breathCount) * (INHALE_DURATION + EXHALE_DURATION))))}`}
+                  strokeLinecap="round"
+                  transform="rotate(-90 50 50)"
+                  className="transition-all duration-1000 ease-in-out"
+                />
               )}
-            </div>
+
+              {/* 添加文字到SVG内部 */}
+              {animationState && (
+                <>
+                  <text
+                    x="50"
+                    y="45"
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    fill="white"
+                    fontSize="10"
+                    fontWeight="bold"
+                  >
+                    {`${timer}s / ${animationState === 'inhale' ? INHALE_DURATION : EXHALE_DURATION}s`}
+                  </text>
+                  <text
+                    x="50"
+                    y="65"
+                    textAnchor="middle"
+                    dominantBaseline="middle"
+                    fill="#86EFAC"
+                    fontSize="8"
+                    fontWeight="bold"
+                  >
+                    #{currentBreath + 1}/{breathCount} {t('unit')}
+                  </text>
+                </>
+              )}
+            </svg>
           </div>
           <div className="text-center text-xl font-semibold h-16 flex items-center">
             {animationState === 'inhale' ? (
@@ -213,29 +259,8 @@ export default function BreathingExercise() {
             ) : animationState === 'exhale' ? (
               <span className="text-gray-600">{t('exhale')}</span>
             ) : (
-              ''
+              <span className="text-gray-600">{t('helpMsg')}</span>
             )}
-          </div>
-          <div className="w-full">
-            <div className="w-full bg-violet-50 rounded-full h-2.5">
-              <div
-                className="bg-violet-300 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
-                style={{
-                  width: animationState
-                    ? `${((currentBreath * (INHALE_DURATION + EXHALE_DURATION) +
-                      (animationState === 'inhale' ? timer : INHALE_DURATION + timer)) /
-                      (parseInt(breathCount) * (INHALE_DURATION + EXHALE_DURATION))) * 100}%`
-                    : '0%'
-                }}
-              ></div>
-            </div>
-            <div className="text-center mt-2 text-sm text-gray-600">
-              {animationState ? (
-                `${t('progress')}: ${currentBreath + 1} / ${breathCount} ${t('unit')}`
-              ) : (
-                `${t('helpMsg')}`
-              )}
-            </div>
           </div>
         </div>
       </div>
