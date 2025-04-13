@@ -43,7 +43,7 @@ export default function BreathingExercise() {
   // 播放音效
   const playSound = (isInhale: boolean = true) => {
     if (isMuted) return;
-
+    
     const audioRef = isInhale ? inhaleAudioRef.current : exhaleAudioRef.current;
     if (audioRef) {
       // 重置音频以便重新播放
@@ -52,9 +52,27 @@ export default function BreathingExercise() {
     }
   };
 
+  // 停止所有音频播放
+  const stopAllSounds = () => {
+    if (inhaleAudioRef.current) {
+      inhaleAudioRef.current.pause();
+      inhaleAudioRef.current.currentTime = 0;
+    }
+    if (exhaleAudioRef.current) {
+      exhaleAudioRef.current.pause();
+      exhaleAudioRef.current.currentTime = 0;
+    }
+  };
+
   // 切换静音状态
   const toggleMute = () => {
-    setIsMuted(!isMuted);
+    const newMutedState = !isMuted;
+    setIsMuted(newMutedState);
+    
+    // 如果切换到静音状态，立即停止所有音频播放
+    if (newMutedState) {
+      stopAllSounds();
+    }
   };
 
   useEffect(() => {
@@ -104,6 +122,8 @@ export default function BreathingExercise() {
     setCurrentBreath(0)
     setAnimationState('')
     setTimer(0)
+    // 重置时停止所有音频播放
+    stopAllSounds();
   }
 
   const endExercise = () => {
@@ -111,6 +131,8 @@ export default function BreathingExercise() {
     setAnimationState('')
     setTimer(0)
     setShowCompletionDialog(true)
+    // 结束时停止所有音频播放
+    stopAllSounds();
 
     // 增加撒花的数量和范围
     confetti({
