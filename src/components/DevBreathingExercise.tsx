@@ -43,7 +43,7 @@ export default function BreathingExercise() {
   // 播放音效
   const playSound = (isInhale: boolean = true) => {
     if (isMuted) return;
-    
+
     const audioRef = isInhale ? inhaleAudioRef.current : exhaleAudioRef.current;
     if (audioRef) {
       // 重置音频以便重新播放
@@ -68,7 +68,7 @@ export default function BreathingExercise() {
   const toggleMute = () => {
     const newMutedState = !isMuted;
     setIsMuted(newMutedState);
-    
+
     // 如果切换到静音状态，立即停止所有音频播放
     if (newMutedState) {
       stopAllSounds();
@@ -235,9 +235,11 @@ export default function BreathingExercise() {
                   stroke="#8B5CF6"
                   strokeWidth="3"
                   strokeDasharray={`${2 * Math.PI * 45}`}
-                  strokeDashoffset={`${2 * Math.PI * 45 * (1 - ((currentBreath * (INHALE_DURATION + EXHALE_DURATION) +
-                    (animationState === 'inhale' ? timer : INHALE_DURATION + timer)) /
-                    (parseInt(breathCount) * (INHALE_DURATION + EXHALE_DURATION))))}`}
+                  strokeDashoffset={`${2 * Math.PI * 45 * (1 - (
+                    animationState === 'inhale' 
+                      ? timer / (INHALE_DURATION + EXHALE_DURATION) 
+                      : (INHALE_DURATION + timer) / (INHALE_DURATION + EXHALE_DURATION)
+                  ))}`}
                   strokeLinecap="round"
                   transform="rotate(-90 50 50)"
                   className="transition-all duration-1000 ease-in-out"
@@ -249,31 +251,20 @@ export default function BreathingExercise() {
                 <>
                   <text
                     x="50"
-                    y="45"
+                    y="50"
                     textAnchor="middle"
                     dominantBaseline="middle"
                     fill="white"
-                    fontSize="10"
+                    fontSize="14"
                     fontWeight="bold"
                   >
                     {`${timer}s / ${animationState === 'inhale' ? INHALE_DURATION : EXHALE_DURATION}s`}
-                  </text>
-                  <text
-                    x="50"
-                    y="65"
-                    textAnchor="middle"
-                    dominantBaseline="middle"
-                    fill="#86EFAC"
-                    fontSize="8"
-                    fontWeight="bold"
-                  >
-                    #{currentBreath + 1}/{breathCount} {t('unit')}
                   </text>
                 </>
               )}
             </svg>
           </div>
-          <div className="text-center text-xl font-semibold h-16 flex items-center">
+          <div className="text-center text-xl font-semibold h-20 flex items-center">
             {animationState === 'inhale' ? (
               <span className="text-gray-600">{t('inhale')}</span>
             ) : animationState === 'exhale' ? (
@@ -281,6 +272,38 @@ export default function BreathingExercise() {
             ) : (
               <span className="text-gray-600">{t('helpMsg')}</span>
             )}
+          </div>
+          <div className="w-full mt-4">
+            <div className="w-full bg-violet-50 rounded-full h-2.5 relative">
+              <div
+                className="bg-violet-300 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+                style={{
+                  width: animationState
+                    ? `${((currentBreath * (INHALE_DURATION + EXHALE_DURATION) +
+                      (animationState === 'inhale' ? timer : INHALE_DURATION + timer)) /
+                      (parseInt(breathCount) * (INHALE_DURATION + EXHALE_DURATION))) * 100}%`
+                    : '0%'
+                }}
+              ></div>
+              {animationState && (
+                <div
+                  className="absolute -top-7 transform -translate-y-1 flex flex-col items-center transition-all duration-1000 ease-in-out"
+                  style={{
+                    left: `calc(${Math.min(
+                      ((currentBreath * (INHALE_DURATION + EXHALE_DURATION) +
+                        (animationState === 'inhale' ? timer : INHALE_DURATION + timer)) /
+                        (parseInt(breathCount) * (INHALE_DURATION + EXHALE_DURATION))) * 100,
+                      97.5
+                    )}% - 1.25rem)`
+                  }}
+                >
+                  <div className="text-xs font-medium px-2 py-1 bg-violet-300 text-white rounded-md shadow-sm whitespace-nowrap">
+                    {currentBreath + 1} / {breathCount}
+                  </div>
+                  <div className="w-2 h-2 bg-violet-300 rotate-45 transform -translate-y-1"></div>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
