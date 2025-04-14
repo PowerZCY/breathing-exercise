@@ -20,6 +20,8 @@
     "unit": "呼吸",
     "startButton": "開始",
     "resetButton": "リセット",
+    "muteMsg": "ミュート",
+    "unmuteMsg": "音声オン",
     "inhale": "吸って、お腹を膨らませてください",
     "exhale": "吐いて、お腹を引っ込めてください",
     "progress": "進捗",

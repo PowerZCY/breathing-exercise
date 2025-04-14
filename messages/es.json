@@ -20,6 +20,8 @@
     "unit": "respiraciones",
     "startButton": "Comenzar",
     "resetButton": "Reiniciar",
+    "muteMsg": "Silenciar",
+    "unmuteMsg": "Activar sonido",
     "inhale": "Inhale, expanda su abdomen",
     "exhale": "Exhale, contraiga su abdomen",
     "progress": "Progreso",

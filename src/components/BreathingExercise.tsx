@@ -154,13 +154,7 @@ export default function BreathingExercise() {
         <div className="flex justify-between items-center mb-4">
           <div className="w-8"></div> {/* 添加占位元素保持平衡 */}
           <h1 className="text-2xl font-bold">{t('title')}</h1>
-          <button
-            onClick={toggleMute}
-            className="p-2 text-violet-500 hover:bg-violet-50 rounded-full transition-colors"
-            aria-label={isMuted ? "取消静音" : "静音"}
-          >
-            {isMuted ? <VolumeX size={20} /> : <Volume2 size={20} />}
-          </button>
+          <div className="w-8"></div> {/* 替换为占位元素，声音按钮将移至按钮区域 */}
         </div>
 
         <div className="mb-4">
@@ -181,7 +175,7 @@ export default function BreathingExercise() {
           </RadioGroup>
         </div>
 
-        <div className="flex space-x-2 mb-4">
+        <div className="flex items-center space-x-2 mb-4">
           <Button
             onClick={startExercise}
             disabled={isExercising}
@@ -196,6 +190,13 @@ export default function BreathingExercise() {
           >
             {t('resetButton')}
           </Button>
+          <button
+            onClick={toggleMute}
+            className="p-2 text-violet-500 hover:bg-violet-50 rounded-full transition-colors"
+            aria-label={isMuted ? t('unmuteMsg') : t('muteMsg')}
+          >
+            {isMuted ? <VolumeX size={20} /> : <Volume2 size={20} />}
+          </button>
         </div>
         <div className="flex flex-col items-center space-y-4">
           <div className="relative w-48 h-48">

@@ -20,6 +20,8 @@
     "unit": "respiri",
     "startButton": "Inizia",
     "resetButton": "Reimposta",
+    "muteMsg": "Disattiva audio",
+    "unmuteMsg": "Attiva audio",
     "inhale": "Inspira, espandi il tuo addome",
     "exhale": "Espira, contrai il tuo addome",
     "progress": "Progresso",

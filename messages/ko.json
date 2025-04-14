@@ -20,6 +20,8 @@
     "unit": "호흡",
     "startButton": "시작",
     "resetButton": "재설정",
+    "muteMsg": "음소거",
+    "unmuteMsg": "음소거 해제",
     "inhale": "들이마시고, 배를 확장하세요",
     "exhale": "내쉬고, 배를 수축하세요",
     "progress": "진행",

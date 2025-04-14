@@ -20,6 +20,8 @@
     "unit": "Atemzüge",
     "startButton": "Starten",
     "resetButton": "Zurücksetzen",
+    "muteMsg": "Stummschalten",
+    "unmuteMsg": "Ton einschalten",
     "inhale": "Einatmen, Bauch ausdehnen",
     "exhale": "Ausatmen, Bauch zusammenziehen",
     "progress": "Fortschritt",

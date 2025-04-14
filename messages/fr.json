@@ -20,6 +20,8 @@
         "unit": "respirations",
         "startButton": "Commencer",
         "resetButton": "Réinitialiser",
+        "muteMsg": "Muet",
+        "unmuteMsg": "Activer le son",
         "inhale": "Inspirez, gonflez votre ventre",
         "exhale": "Expirez, contractez votre ventre",
         "progress": "Progression",

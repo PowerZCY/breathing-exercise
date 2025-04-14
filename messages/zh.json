@@ -20,6 +20,8 @@
     "unit": "次",
     "startButton": "开始",
     "resetButton": "重置",
+    "muteMsg": "静音",
+    "unmuteMsg": "取消静音",
     "inhale": "吸气，让腹部扩张",
     "exhale": "呼气，收缩腹部",
     "progress": "进度",

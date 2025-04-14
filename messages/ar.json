@@ -20,6 +20,8 @@
     "unit": "نفس",
     "startButton": "ابدأ",
     "resetButton": "إعادة تعيين",
+    "muteMsg": "كتم الصوت",
+    "unmuteMsg": "تشغيل الصوت",
     "inhale": "شهيق، قم بتوسيع بطنك",
     "exhale": "زفير، قم بانقباض بطنك",
     "progress": "التقدم",

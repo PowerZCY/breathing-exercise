@@ -20,6 +20,8 @@
     "unit": "nefes",
     "startButton": "Başlat",
     "resetButton": "Sıfırla",
+    "muteMsg": "Sessiz",
+    "unmuteMsg": "Sesi aç",
     "inhale": "Nefes alın, karnınızı genişletin",
     "exhale": "Nefes verin, karnınızı daraltın",
     "progress": "İlerleme",

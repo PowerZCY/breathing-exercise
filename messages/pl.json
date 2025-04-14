@@ -20,6 +20,8 @@
     "unit": "oddechy",
     "startButton": "Rozpocznij",
     "resetButton": "Zresetuj",
+    "muteMsg": "Wycisz",
+    "unmuteMsg": "Włącz dźwięk",
     "inhale": "Wdech, rozszerz brzuch",
     "exhale": "Wydech, skurcz brzuch",
     "progress": "Postęp",

@@ -20,6 +20,8 @@
     "unit": "breaths",
     "startButton": "Start",
     "resetButton": "Reset",
+    "muteMsg": "Mute",
+    "unmuteMsg": "Unmute",
     "inhale": "Inhale deeply, expand your belly outward",
     "exhale": "Exhale slowly, contract your belly inward",
     "progress": "Exercise Progress",
