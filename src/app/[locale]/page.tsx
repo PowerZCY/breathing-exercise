@@ -7,6 +7,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher'
 import LanguageDetector from '@/components/LanguageDetector'
 import EmbedButton from '@/components/EmbedButton'
 import { Toaster } from "@/components/Toaster"
+import MicrosoftClarity from '@/components/MicrosoftClarity'
 
 type Props = {
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
@@ -42,6 +43,7 @@ export default async function Home({ searchParams }: Props) {
       </div>
       <GoTopButton />
       <GoogleAnalytics />
+      <MicrosoftClarity />
       <Toaster />
     </>
   )
