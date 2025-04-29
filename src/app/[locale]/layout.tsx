@@ -40,14 +40,13 @@ export async function generateMetadata({
         "uk": `${appConfig.baseUrl}/uk`
       }
     },
-    icons: {
-      icon: [
-        {
-          url: '/favicon.svg',
-          type: 'image/svg+xml',
-        }
-      ],
-    },
+    icons: [
+      { rel: "icon", type: 'image/png', sizes: "16x16", url: "/favicon-16x16.png" },
+      { rel: "icon", type: 'image/png', sizes: "32x32", url: "/favicon-32x32.png" },
+      { rel: "icon", type: 'image/ico', url: "/favicon.ico" },
+      { rel: "apple-touch-icon", sizes: "180x180", url: "/favicon-180x180.png" },
+      { rel: "android-chrome", sizes: "512x512", url: "/favicon-512x512.png" },
+    ],
     openGraph: {
       title: t('title'),
       description: t('description'),

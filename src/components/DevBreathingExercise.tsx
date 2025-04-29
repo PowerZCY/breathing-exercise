@@ -106,6 +106,7 @@ export default function BreathingExercise() {
       clearTimeout(animationTimer)
       clearInterval(countdownTimer)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isExercising, currentBreath, breathCount, animationState])
 
   const startExercise = () => {
