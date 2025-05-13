@@ -30,10 +30,7 @@ export default async function Home({ searchParams }: Props) {
         </div>
         <main className="w-full min-h-screen flex flex-col items-center justify-start bg-blue-50 py-4">
           <div className="container mx-auto px-4 flex flex-col items-center relative">
-            <div className="w-full flex flex-col items-center gap-3 mb-12 min-h-[600px]">
-              <ClientBreathingWrapper />
-              <EmbedButton />
-            </div>
+            <ClientBreathingWrapper />
             <div className="w-full flex justify-center opacity-0 transition-opacity duration-500"
               style={{ animation: 'fadeIn 0.5s ease-in forwards 0.5s' }}>
               <BreathingInstructions />

@@ -3,22 +3,31 @@
 import { useState, useEffect } from 'react'
 import BreathingExercise from './BreathingExercise'
 import DevBreathingExercise from './DevBreathingExercise'
+import EmbedButton from './EmbedButton'
 
 export default function ClientBreathingWrapper() {
   const [isMounted, setIsMounted] = useState(false)
-
+  const placeHolderStyle = "w-full flex flex-col items-center gap-3 mb-12 min-h-[600px]"
   useEffect(() => {
     setIsMounted(true)
   }, [])
 
   if (!isMounted) {
-    // Return a placeholder with estimated height to prevent layout shift
-    // The actual component is w-full max-w-md.
-    // min-h-96 is 24rem (384px), adjust as needed.
-    return <div className="min-h-[543px] w-full max-w-md" />;
+    // Placeholder for both BreathingExercise and EmbedButton, maintaining the flex structure
+    return (
+      <div className={placeHolderStyle}>
+        <div className="w-full max-w-md" /> {/* Placeholder for Exercise */}
+        <div className="h-10 w-full max-w-md" /> {/* Placeholder for EmbedButton (h-10 is 40px) */}
+      </div>
+    )
   }
 
-  // 判断环境，生产环境使用BreathingExercise，否则使用DevBreathingExercise
-  const isProduction = process.env.NODE_ENV === 'production'
-  return isProduction ? <BreathingExercise /> : <DevBreathingExercise />
+  const ExerciseComponentToRender = process.env.NODE_ENV === 'production' ? BreathingExercise : DevBreathingExercise
+
+  return (
+    <div className={placeHolderStyle}>
+      <ExerciseComponentToRender />
+      <EmbedButton />
+    </div>
+  )
 }
