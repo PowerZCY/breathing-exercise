@@ -30,7 +30,7 @@ export default async function Home({ searchParams }: Props) {
         </div>
         <main className="w-full min-h-screen flex flex-col items-center justify-start bg-blue-50 py-4">
           <div className="container mx-auto px-4 flex flex-col items-center relative">
-            <div className="w-full flex flex-col items-center gap-3 mb-12">
+            <div className="w-full flex flex-col items-center gap-3 mb-12 min-h-[600px]">
               <ClientBreathingWrapper />
               <EmbedButton />
             </div>
