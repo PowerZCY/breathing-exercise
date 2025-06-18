@@ -1,6 +1,6 @@
 import { appConfig } from "@/lib/appConfig"
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, unstable_setRequestLocale, getTranslations } from 'next-intl/server'
+import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server'
 import { Montserrat } from "next/font/google";
 import './globals.css'
 import { cn } from '@/lib/utils';
@@ -69,7 +69,7 @@ export default async function RootLayout({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await paramsPromise;  // 使用新名称
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const messages = await getMessages({ locale });
 
   return (

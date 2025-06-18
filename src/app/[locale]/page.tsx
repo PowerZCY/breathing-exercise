@@ -5,7 +5,6 @@ import GoogleAnalytics from '@/components/GoogleAnalytics'
 import GoTopButton from '@/components/GoTopButton'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import LanguageDetector from '@/components/LanguageDetector'
-import EmbedButton from '@/components/EmbedButton'
 import { Toaster } from "@/components/Toaster"
 import MicrosoftClarity from '@/components/MicrosoftClarity'
 
