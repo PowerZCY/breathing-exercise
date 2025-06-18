@@ -1,10 +1,16 @@
 import { appConfig } from "@/lib/appConfig"
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages, unstable_setRequestLocale, getTranslations } from 'next-intl/server'
-import { Inter } from 'next/font/google'
+import { Montserrat } from "next/font/google";
 import './globals.css'
+import { cn } from '@/lib/utils';
 
-const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({
+  weight: ['400'], // 400 是 Regular
+  subsets: ['latin'],
+  display: 'swap',
+});
+
 
 export const dynamic = 'force-dynamic'
 
@@ -68,7 +74,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={cn(montserrat.className)}>
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}
         </NextIntlClientProvider>
