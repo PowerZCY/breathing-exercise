@@ -93,5 +93,8 @@
     "description": "に切り替えますか",
     "close": "いいえ、結構です",
     "changeAction": "はい、切り替えます"
+  },
+  "footer": {
+    "relatedLinks": "関連リンク"
   }
 }

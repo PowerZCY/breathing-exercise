@@ -1,9 +1,7 @@
-'use client'
+import { getTranslations } from 'next-intl/server';
 
-import { useTranslations } from 'next-intl';
-
-export default function BreathingInstructions() {
-  const t = useTranslations('instructions');
+export default async function BreathingInstructions() {
+  const t = await getTranslations('instructions');
 
   const TextBlock = ({ textKey, section = 'intro' }: { textKey: string, section?: string }) => (
     <p className="mb-3">{t(`${section}.${textKey}`)}</p>
@@ -28,7 +26,7 @@ export default function BreathingInstructions() {
         <h3 className="text-xl font-semibold mb-4 text-gray-800">{t('benefits.title')}</h3>
         <div className="bg-blue-50 p-6 rounded-lg mb-8 border border-blue-100">
           <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            {t.raw('benefits.list').map((benefit: string, index: number) => (
+            {(t.raw('benefits.list') as string[]).map((benefit: string, index: number) => (
               <li key={index}>{benefit}</li>
             ))}
           </ul>
@@ -38,7 +36,7 @@ export default function BreathingInstructions() {
       <section className="mb-8">
         <h3 className="text-xl font-semibold mb-4 text-gray-800">{t('practice.title')}</h3>
         <ol className="list-decimal pl-6 space-y-3 text-gray-700">
-          {t.raw('practice.steps').map((step: string, index: number) => (
+          {(t.raw('practice.steps') as string[]).map((step: string, index: number) => (
             <li key={index} className="leading-relaxed">{step}</li>
           ))}
         </ol>
@@ -55,7 +53,7 @@ export default function BreathingInstructions() {
       <div className="bg-blue-50 p-6 rounded-lg mb-8 border border-blue-100">
         <h4 className="font-semibold mb-3 text-lg text-gray-800">{t('tips.title')}</h4>
         <ul className="list-disc pl-6 space-y-2 text-gray-700">
-          {t.raw('tips.list').map((tip: string, index: number) => (
+          {(t.raw('tips.list') as string[]).map((tip: string, index: number) => (
             <li key={index} className="leading-relaxed">{tip}</li>
           ))}
         </ul>

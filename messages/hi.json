@@ -93,5 +93,9 @@
     "description": "क्या आप स्विच करना चाहेंगे",
     "close": "नहीं, धन्यवाद",
     "changeAction": "हाँ, स्विच करें"
+  },
+  "footer": {
+    "relatedLinks": "संबंधित लिंक"
   }
 }
+

@@ -93,5 +93,9 @@
     "description": "Möchten Sie zu wechseln",
     "close": "Nein, danke",
     "changeAction": "Ja, wechseln"
+  },
+  "footer": {
+    "relatedLinks": "Verwandte Links"
   }
 }
+

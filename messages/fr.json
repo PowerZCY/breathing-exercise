@@ -93,5 +93,9 @@
         "description": "Souhaitez-vous passer à",
         "close": "Non, merci",
         "changeAction": "Oui, changer"
+    },
+    "footer": {
+        "relatedLinks": "Liens connexes"
     }
 }
+

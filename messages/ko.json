@@ -93,5 +93,9 @@
     "description": "로 전환하시겠습니까",
     "close": "아니요, 괜찮습니다",
     "changeAction": "예, 전환합니다"
+  },
+  "footer": {
+    "relatedLinks": "관련 링크"
   }
 }
+

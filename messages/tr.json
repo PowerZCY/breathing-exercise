@@ -93,5 +93,9 @@
     "description": "Şuna geçmek ister misiniz",
     "close": "Hayır, teşekkürler",
     "changeAction": "Evet, geç"
+  },
+  "footer": {
+    "relatedLinks": "İlgili Bağlantılar"
   }
 }
+

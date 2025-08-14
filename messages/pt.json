@@ -93,5 +93,9 @@
     "description": "Gostaria de mudar para",
     "close": "Não, obrigado",
     "changeAction": "Sim, mudar"
+  },
+  "footer": {
+    "relatedLinks": "Links relacionados"
   }
 }
+

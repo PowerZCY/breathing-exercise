@@ -5,6 +5,7 @@ import GoogleAnalytics from '@/components/GoogleAnalytics'
 import GoTopButton from '@/components/GoTopButton'
 import LanguageSwitcher from '@/components/LanguageSwitcher'
 import LanguageDetector from '@/components/LanguageDetector'
+import Footer from '@/components/Footer'
 import { Toaster } from "@/components/Toaster"
 import MicrosoftClarity from '@/components/MicrosoftClarity'
 
@@ -36,6 +37,7 @@ export default async function Home({ searchParams }: Props) {
             </div>
           </div>
         </main>
+        <Footer />
       </div>
       <GoTopButton />
       <GoogleAnalytics />

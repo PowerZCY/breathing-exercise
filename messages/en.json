@@ -93,5 +93,8 @@
     "description": "Would you like to switch to",
     "close": "No, thanks",
     "changeAction": "Yes, switch"
+  },
+  "footer": {
+    "relatedLinks": "Related Links"
   }
 }

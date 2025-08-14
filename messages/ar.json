@@ -93,5 +93,9 @@
     "description": "هل ترغب في التبديل إلى",
     "close": "لا، شكرًا",
     "changeAction": "نعم، قم بالتبديل"
+  },
+  "footer": {
+    "relatedLinks": "روابط ذات صلة"
   }
 }
+

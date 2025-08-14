@@ -93,5 +93,8 @@
     "description": "是否切换到",
     "close": "不用了",
     "changeAction": "切换"
+  },
+  "footer": {
+    "relatedLinks": "相关链接"
   }
 }
