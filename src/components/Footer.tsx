@@ -5,7 +5,10 @@ const footerLinks = [
   { href: 'https://musicposter.org/en', text: 'Music Poster' },
   { href: 'https://imagenarration.com/en', text: 'Image Narration' },
   { href: 'https://describeyourself.org/en', text: 'Describe Yourself' },
-  { href: 'https://newspaper-template.org/en', text: 'Newspaper Template' }
+  { href: 'https://newspaper-template.org/en', text: 'Newspaper Template' },
+  { href: 'https://cal.com/lilyeee', text: 'Cal' },
+  { href: 'https://share.evernote.com/note/274070cb-1af2-4321-b91c-b5285db35fa9', text: 'Evernote' },
+  { href: 'https://linktr.ee/lilyeeeeee', text: 'Linktree' }
 ];
 
 export default async function Footer() {
